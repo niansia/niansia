@@ -73,7 +73,7 @@ If you are looking for a research partner, have a cross-disciplinary problem wor
 | **[CSIE Algorithm Lab](https://github.com/niansia/CSIE_WEB)** | An interactive collection of algorithm implementations and visual learning tools, spanning dynamic programming, graphs, optimization, and data structures. | Algorithms, visualization, Python |
 | **[Mortgage Decision Support](https://github.com/niansia/1113354_MortgageCalculator)** | A financial decision tool with Monte Carlo stress tests, scenario comparison, risk metrics, and privacy-oriented verification concepts. | Quantitative modeling, simulation, C# |
 | **[Hualien Mutual-Aid Platform](https://github.com/niansia/fuxing)** | A full-stack prototype for disaster requests, volunteer coordination, and persistent resource data. | React, Node.js, SQLite, civic tech |
-| **[Stock Forecasting](https://github.com/niansia/stock-forecast)** | Classification and regression notebooks for exploring market-direction and index forecasting. | Time series, machine learning, notebooks |
+| **[NoveltyAudit](https://github.com/niansia/NoveltyAudit)** | An evidence-first Agent Skill for adversarial scholarly novelty audits, with claim decomposition, Minimal Prior Sets, historical cutoffs, and bridge-aware prior-work analysis. | AI agents, scholarly search, research integrity |
 
 ## Tools I work with
 
