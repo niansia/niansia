@@ -81,7 +81,7 @@
 | **[CSIE Algorithm Lab](https://github.com/niansia/CSIE_WEB)** | 涵蓋動態規劃、圖論、最佳化與資料結構的互動式演算法實作及視覺化學習工具。 | 演算法、視覺化、Python |
 | **[Mortgage Decision Support](https://github.com/niansia/1113354_MortgageCalculator)** | 結合蒙地卡羅壓力測試、情境比較、風險指標與隱私驗證概念的財務決策工具。 | 量化建模、模擬、C# |
 | **[Hualien Mutual-Aid Platform](https://github.com/niansia/fuxing)** | 支援災情需求、志工協調與資源資料持久化的全端原型。 | React、Node.js、SQLite、公民科技 |
-| **[Stock Forecasting](https://github.com/niansia/stock-forecast)** | 探索市場方向與指數預測的分類、迴歸實驗筆記。 | 時間序列、機器學習、Jupyter |
+| **[NoveltyAudit](https://github.com/niansia/NoveltyAudit)** | 以證據為核心的 Agent Skill，透過研究主張拆解、Minimal Prior Set、嚴格時間截點與跨論文 bridge evidence，對學術新穎性進行對抗式稽核。 | AI Agent、學術檢索、研究可信度 |
 
 ## 使用工具
 
