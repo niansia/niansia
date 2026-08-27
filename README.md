@@ -2,6 +2,8 @@
 
 # Hi, I'm niansia 👋
 
+[繁體中文](https://github.com/niansia/niansia/blob/main/README.zh-TW.md) · [简体中文](https://github.com/niansia/niansia/blob/main/README.zh-CN.md) · **English**
+
 ### Computer Science @ Yuan Ze University · Researching intelligent systems that can see, reason, and make robust decisions
 
 `Computer Vision` · `Vision-Language Models` · `AI Security` · `Quantitative Machine Learning`
@@ -14,7 +16,9 @@ I'm a final-year Computer Science student at **Yuan Ze University (YZU)**, explo
 
 My work is driven by one question: **how can we build learning systems that understand complex signals, reason reliably, and remain useful under real-world uncertainty?** I enjoy turning research ideas into working prototypes—from multimodal reasoning experiments and model evaluation pipelines to decision-support tools and interactive systems.
 
-> 元智大學資工系應屆畢業生。目前專注於電腦視覺、多模態模型、AI 安全與量化機器學習，並持續把研究想法落地成可驗證、可互動的系統。
+If you are working on **CV / VLM reasoning, trustworthy AI, cybersecurity, or quantitative machine learning**, I welcome research conversations and potential collaborations. I am particularly interested in exchanging early-stage ideas, reading and discussing papers, reproducing experimental results, investigating unexpected model behavior, and turning a rough research question into a testable prototype.
+
+If you are looking for a research partner, have a cross-disciplinary problem worth exploring, or simply came across an interesting dataset, benchmark, or failure case, feel free to contact me at **[wilbur930202@gmail.com](mailto:wilbur930202@gmail.com)**. I may not always reply immediately, but I will read thoughtful messages carefully and would be glad to meet people who care about asking precise questions and building rigorous experiments.
 
 ## Current research
 
@@ -81,12 +85,4 @@ My work is driven by one question: **how can we build learning systems that unde
 - Studying **robustness, integrity, and security** in intelligent systems
 - Connecting **machine learning with quantitative risk and decision-making**
 - Publishing cleaner code, experiment notes, and reproducible research artifacts
-
-<div align="center">
-
-### Open to research collaboration, technical discussions, and interesting problems.
-
-**See something worth discussing? Feel free to reach out through one of my repositories.**
-
-</div>
 
