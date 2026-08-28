@@ -58,7 +58,7 @@
 <sub><strong>NoveltyAudit</strong> — 证据导向研究工具</sub>
 </td>
 <td width="50%" align="center" valign="top">
-<a href="https://github.com/niansia/1113354_Windowsfinal"><img src="https://niansia.github.io/assets/work/fusion-desktop.png" alt="Fusion OS 桌面界面"></a><br>
+<a href="https://github.com/niansia/fusion-os"><img src="https://niansia.github.io/assets/work/fusion-desktop.png" alt="Fusion OS 桌面界面"></a><br>
 <sub><strong>Fusion OS</strong> — 多模态桌面环境</sub>
 </td>
 </tr>
@@ -67,10 +67,10 @@
 | 项目 | 实现内容 | 重点 |
 | --- | --- | --- |
 | **[NoveltyAudit](https://github.com/niansia/NoveltyAudit)** | 以证据为核心的 Agent Skill，通过研究主张拆解、Minimal Prior Set、历史时间截点与 bridge-aware prior-work analysis，进行对抗式学术新颖性审计。 | AI Agent、学术检索、研究诚信 |
-| **[Fusion OS](https://github.com/niansia/1113354_Windowsfinal)** | 以 C# / WebView2 外壳搭配 React + TypeScript 界面，整合 25 个以上交互应用的桌面型环境。 | 系统集成、多模态界面 |
+| **[Fusion OS](https://github.com/niansia/fusion-os)** | 以 C# / WebView2 外壳搭配 React + TypeScript 界面，整合 25 个以上交互应用的桌面型环境。 | 系统集成、多模态界面 |
 | **[CSIE Algorithm Lab](https://github.com/niansia/CSIE_WEB)** | 涵盖图论、动态规划、优化与数据结构的交互式算法实现及可视化学习工具。 | 算法、可视化、计算机科学基础 |
 | **[花莲互助平台](https://github.com/niansia/fuxing)** | 支持灾情需求、志愿者协调与资源数据持久化的全栈原型。 | React、Node.js、SQLite、公益科技 |
-| **[房贷决策支持](https://github.com/niansia/1113354_MortgageCalculator)** | 结合蒙特卡洛压力测试、情景比较与风险指标的财务决策工具。 | 量化建模、模拟、C# |
+| **[房贷决策支持](https://github.com/niansia/mortgage-decision-support)** | 结合蒙特卡洛压力测试、情景比较与风险指标的财务决策工具。 | 量化建模、模拟、C# |
 
 ## 延伸兴趣
 
