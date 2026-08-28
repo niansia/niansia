@@ -70,7 +70,7 @@ I enjoy turning research questions into reproducible experiments and working sys
 
 | Project | What I built | Focus |
 | --- | --- | --- |
-| **[CSIE Algorithm Lab](https://github.com/niansia/CSIE_WEB)** | Interactive algorithm implementations and visual learning tools spanning graphs, dynamic programming, optimization, and data structures. | Algorithms, visualization, CS fundamentals |
+| **[Research Meeting Coach](https://github.com/niansia/research-meeting-coach)** | An early-alpha, evidence-grounded Agent Skill that turns raw research progress into an advisor-ready brief, flags unsupported claims, and preserves unfinished requests across meetings. | Research workflow, evidence integrity, AI agents |
 | **[Hualien Mutual-Aid Platform](https://github.com/niansia/fuxing)** | A full-stack prototype for disaster requests, volunteer coordination, and persistent resource data. | React, Node.js, SQLite, civic tech |
 | **[Mortgage Decision Support](https://github.com/niansia/mortgage-decision-support)** | A financial decision tool with Monte Carlo stress tests, scenario comparison, and risk metrics. | Quantitative modeling, simulation, C# |
 

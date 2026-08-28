@@ -70,7 +70,7 @@
 
 | 專案 | 實作內容 | 重點 |
 | --- | --- | --- |
-| **[CSIE Algorithm Lab](https://github.com/niansia/CSIE_WEB)** | 涵蓋圖論、動態規劃、最佳化與資料結構的互動式演算法實作及視覺化學習工具。 | 演算法、視覺化、資工基礎 |
+| **[研究會議教練](https://github.com/niansia/research-meeting-coach)** | 仍在早期 alpha 階段、以證據為核心的 Agent Skill，可將零散研究進度整理成指導教授能快速決策的會議摘要，同時標示未獲證據支持的主張與尚未完成的要求。 | 研究工作流程、證據完整性、AI Agent |
 | **[花蓮互助平台](https://github.com/niansia/fuxing)** | 支援災情需求、志工協調與資源資料持久化的全端原型。 | React、Node.js、SQLite、公民科技 |
 | **[房貸決策支援](https://github.com/niansia/mortgage-decision-support)** | 結合蒙地卡羅壓力測試、情境比較與風險指標的財務決策工具。 | 量化建模、模擬、C# |
 
