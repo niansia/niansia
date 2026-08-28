@@ -4,85 +4,73 @@
 
 [繁體中文](https://github.com/niansia/niansia/blob/main/README.zh-TW.md) · [简体中文](https://github.com/niansia/niansia/blob/main/README.zh-CN.md) · **English**
 
-### Computer Science @ Yuan Ze University · Researching intelligent systems that can see, reason, and make robust decisions
+### Computer Science @ Yuan Ze University
 
-`Computer Vision` · `Vision-Language Models` · `AI Security` · `Quantitative Machine Learning`
+**AI Security × Computer Vision × Vision-Language Models**
+
+Researching the security, robustness, and reasoning capabilities of visual and multimodal intelligent systems.
+
+[Website](https://niansia.github.io) · [Research](https://niansia.github.io/#research) · [Projects](https://niansia.github.io/#work) · [Email](mailto:wilbur930202@gmail.com)
 
 </div>
 
-## About me
+## About
 
-I'm a final-year Computer Science student at **Yuan Ze University (YZU)**, exploring the intersection of **computer vision, vision-language models, cybersecurity, quantitative research, and machine learning**.
+I'm a final-year Computer Science student at **Yuan Ze University (YZU)**. My primary interests lie at the intersection of **AI security, computer vision, and vision-language models**, with an emphasis on reliable multimodal reasoning and evaluation.
 
-My work is driven by one question: **how can we build learning systems that understand complex signals, reason reliably, and remain useful under real-world uncertainty?** I enjoy turning research ideas into working prototypes—from multimodal reasoning experiments and model evaluation pipelines to decision-support tools and interactive systems.
+I enjoy turning research questions into reproducible experiments and working systems—from evidence-aware research tools and model evaluation pipelines to interactive software. Some active research projects remain private during development and review; code, results, and reproducible artifacts will be released when appropriate.
 
-If you are working on **CV / VLM reasoning, trustworthy AI, cybersecurity, or quantitative machine learning**, I welcome research conversations and potential collaborations. I am particularly interested in exchanging early-stage ideas, reading and discussing papers, reproducing experimental results, investigating unexpected model behavior, and turning a rough research question into a testable prototype.
-
-If you are looking for a research partner, have a cross-disciplinary problem worth exploring, or simply came across an interesting dataset, benchmark, or failure case, feel free to contact me at **[wilbur930202@gmail.com](mailto:wilbur930202@gmail.com)**. I may not always reply immediately, but I will read thoughtful messages carefully and would be glad to meet people who care about asking precise questions and building rigorous experiments.
-
-## Current research
+## Research interests
 
 <table>
 <tr>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
-### 👁️ Visual Intelligence
+### 🛡️ AI & Multimodal Security
 
-**CV + Vision-Language Models**
-
-- Memory-aware multimodal reasoning
-- Dataset construction and evaluation design
-- Failure analysis for visual understanding
-- Reproducible experiment pipelines
-
-</td>
-<td width="33%" valign="top">
-
-### 🛡️ Trustworthy AI
-
-**Security + Robust Machine Learning**
-
+- Security and robustness of multimodal AI
 - Adversarial and failure-mode analysis
-- Multimodal content integrity
-- Privacy-aware verification concepts
-- Explainable, auditable model behavior
+- Content integrity and verification
+- Trustworthy, auditable evaluation
 
 </td>
-<td width="33%" valign="top">
+<td width="50%" valign="top">
 
-### 📈 Quantitative ML
+### 👁️ Vision & Multimodal Intelligence
 
-**Forecasting + Decision Systems**
-
-- Financial time-series modeling
-- Risk and uncertainty estimation
-- Scenario simulation and stress testing
-- Learning-assisted decision support
+- Computer vision and vision-language models
+- Multimodal reasoning and memory
+- Evaluation under real-world uncertainty
+- Reproducible failure analysis
 
 </td>
 </tr>
 </table>
 
-<sub>Research in progress: building datasets, establishing evaluation protocols, reproducing baselines, and analyzing model behavior. Updates and code will be released as the work becomes ready.</sub>
+## Featured research tooling
 
-## Selected projects
+| Project | What it does | Focus |
+| --- | --- | --- |
+| **[NoveltyAudit](https://github.com/niansia/NoveltyAudit)** | An evidence-first Agent Skill for adversarial scholarly novelty audits, with claim decomposition, Minimal Prior Sets, historical cutoffs, and bridge-aware prior-work analysis. | AI agents, scholarly search, research integrity |
+
+## Selected engineering projects
 
 | Project | What I built | Focus |
 | --- | --- | --- |
-| **[Fusion OS](https://github.com/niansia/1113354_Windowsfinal)** | A desktop-like environment that brings together 25+ interactive applications behind a C# / WebView2 shell and a React + TypeScript interface. | Multimodal interaction, AI prototypes, systems integration |
-| **[CSIE Algorithm Lab](https://github.com/niansia/CSIE_WEB)** | An interactive collection of algorithm implementations and visual learning tools, spanning dynamic programming, graphs, optimization, and data structures. | Algorithms, visualization, Python |
-| **[Mortgage Decision Support](https://github.com/niansia/1113354_MortgageCalculator)** | A financial decision tool with Monte Carlo stress tests, scenario comparison, risk metrics, and privacy-oriented verification concepts. | Quantitative modeling, simulation, C# |
+| **[Fusion OS](https://github.com/niansia/1113354_Windowsfinal)** | A desktop-like environment integrating 25+ interactive applications through a C# / WebView2 shell and a React + TypeScript interface. | Systems integration, multimodal interfaces |
+| **[CSIE Algorithm Lab](https://github.com/niansia/CSIE_WEB)** | Interactive algorithm implementations and visual learning tools spanning graphs, dynamic programming, optimization, and data structures. | Algorithms, visualization, CS fundamentals |
 | **[Hualien Mutual-Aid Platform](https://github.com/niansia/fuxing)** | A full-stack prototype for disaster requests, volunteer coordination, and persistent resource data. | React, Node.js, SQLite, civic tech |
-| **[NoveltyAudit](https://github.com/niansia/NoveltyAudit)** | An evidence-first Agent Skill for adversarial scholarly novelty audits, with claim decomposition, Minimal Prior Sets, historical cutoffs, and bridge-aware prior-work analysis. | AI agents, scholarly search, research integrity |
+| **[Mortgage Decision Support](https://github.com/niansia/1113354_MortgageCalculator)** | A financial decision tool with Monte Carlo stress tests, scenario comparison, and risk metrics. | Quantitative modeling, simulation, C# |
 
-## Tools I work with
+## Additional interests
+
+`Quantitative Machine Learning` · `Systems` · `Interactive Computing` · `Research Software`
+
+## Tools
 
 `Python` · `PyTorch` · `OpenCV` · `scikit-learn` · `Jupyter` · `C# / .NET` · `React` · `TypeScript` · `Node.js` · `SQLite` · `Git`
 
-## What I'm working toward
+## Contact
 
-- Developing rigorous experiments for **CV / VLM reasoning and memory**
-- Studying **robustness, integrity, and security** in intelligent systems
-- Connecting **machine learning with quantitative risk and decision-making**
-- Publishing cleaner code, experiment notes, and reproducible research artifacts
+I welcome thoughtful conversations about AI security, CV / VLM reasoning, trustworthy machine learning, reproducibility, and research tooling. Feel free to contact me at **[wilbur930202@gmail.com](mailto:wilbur930202@gmail.com)**.
 
