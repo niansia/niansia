@@ -10,6 +10,8 @@
 
 Researching the security, robustness, and reasoning capabilities of visual and multimodal intelligent systems.
 
+**Currently applying to graduate programs in computer science.**
+
 [Website](https://niansia.github.io) · [Research](https://niansia.github.io/#research) · [Projects](https://niansia.github.io/#work) · [Email](mailto:wilbur930202@gmail.com)
 
 </div>
@@ -47,16 +49,24 @@ I enjoy turning research questions into reproducible experiments and working sys
 </tr>
 </table>
 
-## Featured research tooling
+## Selected projects
 
-| Project | What it does | Focus |
-| --- | --- | --- |
-| **[NoveltyAudit](https://github.com/niansia/NoveltyAudit)** | An evidence-first Agent Skill for adversarial scholarly novelty audits, with claim decomposition, Minimal Prior Sets, historical cutoffs, and bridge-aware prior-work analysis. | AI agents, scholarly search, research integrity |
-
-## Selected engineering projects
+<table>
+<tr>
+<td width="50%" align="center" valign="top">
+<a href="https://github.com/niansia/NoveltyAudit"><img src="https://niansia.github.io/assets/work/noveltyaudit-architecture.png" alt="NoveltyAudit evidence pipeline architecture"></a><br>
+<sub><strong>NoveltyAudit</strong> — evidence-first research tooling</sub>
+</td>
+<td width="50%" align="center" valign="top">
+<a href="https://github.com/niansia/1113354_Windowsfinal"><img src="https://niansia.github.io/assets/work/fusion-desktop.png" alt="Fusion OS desktop interface"></a><br>
+<sub><strong>Fusion OS</strong> — multimodal desktop environment</sub>
+</td>
+</tr>
+</table>
 
 | Project | What I built | Focus |
 | --- | --- | --- |
+| **[NoveltyAudit](https://github.com/niansia/NoveltyAudit)** | An evidence-first Agent Skill for adversarial scholarly novelty audits, with claim decomposition, Minimal Prior Sets, historical cutoffs, and bridge-aware prior-work analysis. | AI agents, scholarly search, research integrity |
 | **[Fusion OS](https://github.com/niansia/1113354_Windowsfinal)** | A desktop-like environment integrating 25+ interactive applications through a C# / WebView2 shell and a React + TypeScript interface. | Systems integration, multimodal interfaces |
 | **[CSIE Algorithm Lab](https://github.com/niansia/CSIE_WEB)** | Interactive algorithm implementations and visual learning tools spanning graphs, dynamic programming, optimization, and data structures. | Algorithms, visualization, CS fundamentals |
 | **[Hualien Mutual-Aid Platform](https://github.com/niansia/fuxing)** | A full-stack prototype for disaster requests, volunteer coordination, and persistent resource data. | React, Node.js, SQLite, civic tech |
