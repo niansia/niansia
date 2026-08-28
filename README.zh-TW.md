@@ -59,9 +59,9 @@
 <sub>用於對抗式學術新穎性稽核的證據導向工具，包含研究主張拆解、歷史時間截點與 bridge-aware 先前工作分析。</sub>
 </td>
 <td width="50%" align="center" valign="top">
-<a href="https://github.com/niansia/research-meeting-coach"><img src="assets/work/research-meeting-coach.png" width="100%" alt="Advisor-Aware Research Meeting Coach 證據工作流程"></a><br>
-<strong><a href="https://github.com/niansia/research-meeting-coach">研究會議教練</a></strong><br>
-<sub>尚處 early alpha 階段、以證據為核心的 Agent Skill，可將零散研究進度轉化為可供指導教授決策的會議內容、延續未完成事項，並檢查研究主張是否超出既有證據。</sub>
+<a href="https://github.com/niansia/ChromaRecover"><img src="assets/work/chromarecover-architecture.png" width="100%" alt="ChromaRecover 證據優先的電腦視覺架構"></a><br>
+<strong><a href="https://github.com/niansia/ChromaRecover">ChromaRecover</a></strong><br>
+<sub>實驗性 public alpha、以本機運算為核心的 Python 電腦視覺工具，用於還原由細微色彩差異承載的空間結構。系統會比較多種色彩證據假設、保留可稽核產物，並在證據不足時選擇不作判定。</sub>
 </td>
 </tr>
 </table>
@@ -70,9 +70,9 @@
 
 | 專案 | 實作內容 | 重點 |
 | --- | --- | --- |
+| **[研究會議教練](https://github.com/niansia/research-meeting-coach)** | 尚處 early alpha 階段、以證據為核心的 Agent Skill，可將零散研究進度整理成可供指導教授決策的會議內容，並限制研究主張不超出既有證據。 | 研究工作流程、證據約束、Agent Skill |
 | **[Fusion OS](https://github.com/niansia/fusion-os)** | 以 C# / WebView2 為外殼，搭配 React 與 TypeScript 介面，整合超過 25 個互動應用程式的桌面型環境。 | 互動式系統、桌面軟體、多模態運算 |
 | **[花蓮互助平台](https://github.com/niansia/fuxing)** | 支援災情需求、志工協調與資源資料持久化的全端原型。 | React、Node.js、SQLite、公民科技 |
-| **[房貸決策支援](https://github.com/niansia/mortgage-decision-support)** | 結合蒙地卡羅壓力測試、情境比較與風險指標的財務決策工具。 | 量化建模、模擬、C# |
 
 ## 延伸興趣
 
