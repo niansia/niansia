@@ -61,7 +61,7 @@ I enjoy turning research questions into reproducible experiments and working sys
 <td width="50%" align="center" valign="top">
 <a href="https://github.com/niansia/research-meeting-coach"><img src="assets/work/research-meeting-coach.png" width="100%" alt="Advisor-Aware Research Meeting Coach evidence workflow"></a><br>
 <strong><a href="https://github.com/niansia/research-meeting-coach">Research Meeting Coach</a></strong><br>
-<sub>An evidence-grounded Agent Skill that turns raw research progress into decision-ready advisor meetings, preserves unfinished actions, and checks that claims remain within the supplied evidence.</sub>
+<sub>An early-alpha, evidence-grounded Agent Skill that turns raw research progress into decision-ready advisor meetings, preserves unfinished actions, and checks that claims remain within the supplied evidence.</sub>
 </td>
 </tr>
 </table>
