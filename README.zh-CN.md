@@ -70,7 +70,7 @@
 
 | 项目 | 实现内容 | 重点 |
 | --- | --- | --- |
-| **[CSIE Algorithm Lab](https://github.com/niansia/CSIE_WEB)** | 涵盖图论、动态规划、优化与数据结构的交互式算法实现及可视化学习工具。 | 算法、可视化、计算机科学基础 |
+| **[研究会议教练](https://github.com/niansia/research-meeting-coach)** | 仍处于早期 alpha 阶段、以证据为核心的 Agent Skill，可将零散研究进展整理为导师能够快速决策的会议摘要，同时标示缺乏证据支持的主张与尚未完成的要求。 | 研究工作流程、证据完整性、AI Agent |
 | **[花莲互助平台](https://github.com/niansia/fuxing)** | 支持灾情需求、志愿者协调与资源数据持久化的全栈原型。 | React、Node.js、SQLite、公益科技 |
 | **[房贷决策支持](https://github.com/niansia/mortgage-decision-support)** | 结合蒙特卡洛压力测试、情景比较与风险指标的财务决策工具。 | 量化建模、模拟、C# |
 
