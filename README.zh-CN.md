@@ -10,6 +10,8 @@
 
 研究视觉与多模态智能系统的安全性、鲁棒性与推理能力。
 
+**目前正在申请计算机科学相关研究生项目。**
+
 [个人网站](https://niansia.github.io/zh-cn/) · [研究方向](https://niansia.github.io/zh-cn/#research) · [精选作品](https://niansia.github.io/zh-cn/#work) · [Email](mailto:wilbur930202@gmail.com)
 
 </div>
@@ -47,16 +49,24 @@
 </tr>
 </table>
 
-## 精选研究工具
+## 精选项目
 
-| 项目 | 功能 | 重点 |
-| --- | --- | --- |
-| **[NoveltyAudit](https://github.com/niansia/NoveltyAudit)** | 以证据为核心的 Agent Skill，通过研究主张拆解、Minimal Prior Set、历史时间截点与 bridge-aware prior-work analysis，进行对抗式学术新颖性审计。 | AI Agent、学术检索、研究诚信 |
-
-## 精选工程项目
+<table>
+<tr>
+<td width="50%" align="center" valign="top">
+<a href="https://github.com/niansia/NoveltyAudit"><img src="https://niansia.github.io/assets/work/noveltyaudit-architecture.png" alt="NoveltyAudit 证据流程架构"></a><br>
+<sub><strong>NoveltyAudit</strong> — 证据导向研究工具</sub>
+</td>
+<td width="50%" align="center" valign="top">
+<a href="https://github.com/niansia/1113354_Windowsfinal"><img src="https://niansia.github.io/assets/work/fusion-desktop.png" alt="Fusion OS 桌面界面"></a><br>
+<sub><strong>Fusion OS</strong> — 多模态桌面环境</sub>
+</td>
+</tr>
+</table>
 
 | 项目 | 实现内容 | 重点 |
 | --- | --- | --- |
+| **[NoveltyAudit](https://github.com/niansia/NoveltyAudit)** | 以证据为核心的 Agent Skill，通过研究主张拆解、Minimal Prior Set、历史时间截点与 bridge-aware prior-work analysis，进行对抗式学术新颖性审计。 | AI Agent、学术检索、研究诚信 |
 | **[Fusion OS](https://github.com/niansia/1113354_Windowsfinal)** | 以 C# / WebView2 外壳搭配 React + TypeScript 界面，整合 25 个以上交互应用的桌面型环境。 | 系统集成、多模态界面 |
 | **[CSIE Algorithm Lab](https://github.com/niansia/CSIE_WEB)** | 涵盖图论、动态规划、优化与数据结构的交互式算法实现及可视化学习工具。 | 算法、可视化、计算机科学基础 |
 | **[花莲互助平台](https://github.com/niansia/fuxing)** | 支持灾情需求、志愿者协调与资源数据持久化的全栈原型。 | React、Node.js、SQLite、公益科技 |
