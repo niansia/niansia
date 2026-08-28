@@ -59,9 +59,9 @@
 <sub>用于对抗式学术新颖性审计的证据导向工具，包含研究主张拆解、历史时间截点与 bridge-aware 既有工作分析。</sub>
 </td>
 <td width="50%" align="center" valign="top">
-<a href="https://github.com/niansia/fusion-os"><img src="assets/work/fusion-desktop.png" width="100%" alt="Fusion OS 桌面界面"></a><br>
-<strong><a href="https://github.com/niansia/fusion-os">Fusion OS</a></strong><br>
-<sub>以 C# / WebView2 外壳搭配 React + TypeScript 界面，整合 25 个以上交互应用的桌面型环境。</sub>
+<a href="https://github.com/niansia/research-meeting-coach"><img src="assets/work/research-meeting-coach.png" width="100%" alt="Advisor-Aware Research Meeting Coach 证据工作流程"></a><br>
+<strong><a href="https://github.com/niansia/research-meeting-coach">研究会议教练</a></strong><br>
+<sub>以证据为核心的 Agent Skill，可将零散研究进展转化为导师能够据此决策的会议内容、延续未完成事项，并检查研究主张是否超出现有证据。</sub>
 </td>
 </tr>
 </table>
@@ -70,7 +70,7 @@
 
 | 项目 | 实现内容 | 重点 |
 | --- | --- | --- |
-| **[研究会议教练](https://github.com/niansia/research-meeting-coach)** | 仍处于早期 alpha 阶段、以证据为核心的 Agent Skill，可将零散研究进展整理为导师能够快速决策的会议摘要，同时标示缺乏证据支持的主张与尚未完成的要求。 | 研究工作流程、证据完整性、AI Agent |
+| **[Fusion OS](https://github.com/niansia/fusion-os)** | 以 C# / WebView2 为外壳，搭配 React 与 TypeScript 界面，整合超过 25 个交互应用程序的桌面型环境。 | 交互式系统、桌面软件、多模态计算 |
 | **[花莲互助平台](https://github.com/niansia/fuxing)** | 支持灾情需求、志愿者协调与资源数据持久化的全栈原型。 | React、Node.js、SQLite、公益科技 |
 | **[房贷决策支持](https://github.com/niansia/mortgage-decision-support)** | 结合蒙特卡洛压力测试、情景比较与风险指标的财务决策工具。 | 量化建模、模拟、C# |
 
@@ -84,6 +84,6 @@
 
 ## 联系与合作
 
-如果你也在研究 AI 安全、CV／VLM 推理、可信赖机器学习、实验复现或研究工具，欢迎发邮件交流想法、数据集与失败案例喵
+若您也关注 AI 安全、CV／VLM 推理、可信赖机器学习、实验复现或研究工具，欢迎来信交流研究构想、数据集、复现结果与模型失效案例。
 
-联系邮箱是 **[wilbur930202@gmail.com](mailto:wilbur930202@gmail.com)**，期待一起把问题想清楚、把实验做扎实喵
+联系邮箱：**[wilbur930202@gmail.com](mailto:wilbur930202@gmail.com)**

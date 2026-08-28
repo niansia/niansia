@@ -59,9 +59,9 @@ I enjoy turning research questions into reproducible experiments and working sys
 <sub>Evidence-first tooling for adversarial scholarly novelty audits, with claim decomposition, historical cutoffs, and bridge-aware prior-work analysis.</sub>
 </td>
 <td width="50%" align="center" valign="top">
-<a href="https://github.com/niansia/fusion-os"><img src="assets/work/fusion-desktop.png" width="100%" alt="Fusion OS desktop interface"></a><br>
-<strong><a href="https://github.com/niansia/fusion-os">Fusion OS</a></strong><br>
-<sub>A desktop-like environment integrating 25+ interactive applications through a C# / WebView2 shell and a React + TypeScript interface.</sub>
+<a href="https://github.com/niansia/research-meeting-coach"><img src="assets/work/research-meeting-coach.png" width="100%" alt="Advisor-Aware Research Meeting Coach evidence workflow"></a><br>
+<strong><a href="https://github.com/niansia/research-meeting-coach">Research Meeting Coach</a></strong><br>
+<sub>An evidence-grounded Agent Skill that turns raw research progress into decision-ready advisor meetings, preserves unfinished actions, and checks that claims remain within the supplied evidence.</sub>
 </td>
 </tr>
 </table>
@@ -70,7 +70,7 @@ I enjoy turning research questions into reproducible experiments and working sys
 
 | Project | What I built | Focus |
 | --- | --- | --- |
-| **[Research Meeting Coach](https://github.com/niansia/research-meeting-coach)** | An early-alpha, evidence-grounded Agent Skill that turns raw research progress into an advisor-ready brief, flags unsupported claims, and preserves unfinished requests across meetings. | Research workflow, evidence integrity, AI agents |
+| **[Fusion OS](https://github.com/niansia/fusion-os)** | A desktop-like environment integrating more than 25 interactive applications through a C# / WebView2 shell and a React + TypeScript interface. | Interactive systems, desktop software, multimodal computing |
 | **[Hualien Mutual-Aid Platform](https://github.com/niansia/fuxing)** | A full-stack prototype for disaster requests, volunteer coordination, and persistent resource data. | React, Node.js, SQLite, civic tech |
 | **[Mortgage Decision Support](https://github.com/niansia/mortgage-decision-support)** | A financial decision tool with Monte Carlo stress tests, scenario comparison, and risk metrics. | Quantitative modeling, simulation, C# |
 
