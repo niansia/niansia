@@ -16,7 +16,7 @@ Researching the security, robustness, and reasoning capabilities of visual and m
 
 ## About
 
-I'm a final-year Computer Science student at **Yuan Ze University (YZU)**. My primary interests lie at the intersection of **AI security, computer vision, and vision-language models**, with an emphasis on reliable multimodal reasoning and evaluation.
+I recently graduated with a degree in Computer Science from **Yuan Ze University (YZU)**. My primary interests lie at the intersection of **AI security, computer vision, and vision-language models**, with an emphasis on reliable multimodal reasoning and evaluation.
 
 I enjoy turning research questions into reproducible experiments and working systems—from evidence-aware research tools and model evaluation pipelines to interactive software. Some active research projects remain private during development and review; code, results, and reproducible artifacts will be released when appropriate.
 
@@ -73,4 +73,3 @@ I enjoy turning research questions into reproducible experiments and working sys
 ## Contact
 
 I welcome thoughtful conversations about AI security, CV / VLM reasoning, trustworthy machine learning, reproducibility, and research tooling. Feel free to contact me at **[wilbur930202@gmail.com](mailto:wilbur930202@gmail.com)**.
-
