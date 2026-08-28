@@ -54,20 +54,22 @@ I enjoy turning research questions into reproducible experiments and working sys
 <table>
 <tr>
 <td width="50%" align="center" valign="top">
-<a href="https://github.com/niansia/NoveltyAudit"><img src="https://niansia.github.io/assets/work/noveltyaudit-architecture.png" alt="NoveltyAudit evidence pipeline architecture"></a><br>
-<sub><strong>NoveltyAudit</strong> — evidence-first research tooling</sub>
+<a href="https://github.com/niansia/NoveltyAudit"><img src="assets/work/noveltyaudit-architecture.png" width="100%" alt="NoveltyAudit evidence pipeline architecture"></a><br>
+<strong><a href="https://github.com/niansia/NoveltyAudit">NoveltyAudit</a></strong><br>
+<sub>Evidence-first tooling for adversarial scholarly novelty audits, with claim decomposition, historical cutoffs, and bridge-aware prior-work analysis.</sub>
 </td>
 <td width="50%" align="center" valign="top">
-<a href="https://github.com/niansia/fusion-os"><img src="https://niansia.github.io/assets/work/fusion-desktop.png" alt="Fusion OS desktop interface"></a><br>
-<sub><strong>Fusion OS</strong> — multimodal desktop environment</sub>
+<a href="https://github.com/niansia/fusion-os"><img src="assets/work/fusion-desktop.png" width="100%" alt="Fusion OS desktop interface"></a><br>
+<strong><a href="https://github.com/niansia/fusion-os">Fusion OS</a></strong><br>
+<sub>A desktop-like environment integrating 25+ interactive applications through a C# / WebView2 shell and a React + TypeScript interface.</sub>
 </td>
 </tr>
 </table>
 
+## More projects
+
 | Project | What I built | Focus |
 | --- | --- | --- |
-| **[NoveltyAudit](https://github.com/niansia/NoveltyAudit)** | An evidence-first Agent Skill for adversarial scholarly novelty audits, with claim decomposition, Minimal Prior Sets, historical cutoffs, and bridge-aware prior-work analysis. | AI agents, scholarly search, research integrity |
-| **[Fusion OS](https://github.com/niansia/fusion-os)** | A desktop-like environment integrating 25+ interactive applications through a C# / WebView2 shell and a React + TypeScript interface. | Systems integration, multimodal interfaces |
 | **[CSIE Algorithm Lab](https://github.com/niansia/CSIE_WEB)** | Interactive algorithm implementations and visual learning tools spanning graphs, dynamic programming, optimization, and data structures. | Algorithms, visualization, CS fundamentals |
 | **[Hualien Mutual-Aid Platform](https://github.com/niansia/fuxing)** | A full-stack prototype for disaster requests, volunteer coordination, and persistent resource data. | React, Node.js, SQLite, civic tech |
 | **[Mortgage Decision Support](https://github.com/niansia/mortgage-decision-support)** | A financial decision tool with Monte Carlo stress tests, scenario comparison, and risk metrics. | Quantitative modeling, simulation, C# |
