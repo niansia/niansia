@@ -61,7 +61,7 @@
 <td width="50%" align="center" valign="top">
 <a href="https://github.com/niansia/research-meeting-coach"><img src="assets/work/research-meeting-coach.png" width="100%" alt="Advisor-Aware Research Meeting Coach 證據工作流程"></a><br>
 <strong><a href="https://github.com/niansia/research-meeting-coach">研究會議教練</a></strong><br>
-<sub>以證據為核心的 Agent Skill，可將零散研究進度轉化為可供指導教授決策的會議內容、延續未完成事項，並檢查研究主張是否超出既有證據。</sub>
+<sub>尚處 early alpha 階段、以證據為核心的 Agent Skill，可將零散研究進度轉化為可供指導教授決策的會議內容、延續未完成事項，並檢查研究主張是否超出既有證據。</sub>
 </td>
 </tr>
 </table>

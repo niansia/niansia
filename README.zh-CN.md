@@ -61,7 +61,7 @@
 <td width="50%" align="center" valign="top">
 <a href="https://github.com/niansia/research-meeting-coach"><img src="assets/work/research-meeting-coach.png" width="100%" alt="Advisor-Aware Research Meeting Coach 证据工作流程"></a><br>
 <strong><a href="https://github.com/niansia/research-meeting-coach">研究会议教练</a></strong><br>
-<sub>以证据为核心的 Agent Skill，可将零散研究进展转化为导师能够据此决策的会议内容、延续未完成事项，并检查研究主张是否超出现有证据。</sub>
+<sub>仍处于 early alpha 阶段、以证据为核心的 Agent Skill，可将零散研究进展转化为导师能够据此决策的会议内容、延续未完成事项，并检查研究主张是否超出现有证据。</sub>
 </td>
 </tr>
 </table>
