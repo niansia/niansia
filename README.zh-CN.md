@@ -54,9 +54,9 @@
 <table>
 <tr>
 <td width="50%" align="center" valign="top">
-<a href="https://github.com/niansia/NoveltyAudit"><img src="assets/work/noveltyaudit-architecture.png" width="100%" alt="NoveltyAudit 证据流程架构"></a><br>
-<strong><a href="https://github.com/niansia/NoveltyAudit">NoveltyAudit</a></strong><br>
-<sub>用于对抗式学术新颖性审计的证据导向工具，包含研究主张拆解、历史时间截点与 bridge-aware 既有工作分析。</sub>
+<a href="https://github.com/niansia/Merriv"><img src="assets/work/merriv-release-evidence-flow.svg" width="100%" alt="Merriv 模型发布证据架构"></a><br>
+<strong><a href="https://github.com/niansia/Merriv">Merriv</a></strong><br>
+<sub>仍处于 pre-alpha 阶段、面向可部署 AI 模型的厂商中立发布证据层。系统将确切模型产物、配对评估、统计策略、来源信息与回归起点绑定为可移植的 Model Change Report，供模型升级前独立验证。</sub>
 </td>
 <td width="50%" align="center" valign="top">
 <a href="https://github.com/niansia/ChromaRecover"><img src="assets/work/chromarecover-architecture.png" width="100%" alt="ChromaRecover 证据优先的计算机视觉架构"></a><br>
@@ -64,15 +64,19 @@
 <sub>实验性 public alpha、以本地运行为核心的 Python 计算机视觉工具，用于恢复由细微色彩差异承载的空间结构。系统会比较多种色彩证据假设、保留可审计产物，并在证据不足时选择不作判断。</sub>
 </td>
 </tr>
+<tr>
+<td width="50%" align="center" valign="top">
+<a href="https://github.com/niansia/NoveltyAudit"><img src="assets/work/noveltyaudit-architecture.png" width="100%" alt="NoveltyAudit 证据流程架构"></a><br>
+<strong><a href="https://github.com/niansia/NoveltyAudit">NoveltyAudit</a></strong><br>
+<sub>用于对抗式学术新颖性审计的证据导向工具，包含研究主张拆解、历史时间截点与 bridge-aware 既有工作分析。</sub>
+</td>
+<td width="50%" align="center" valign="top">
+<a href="https://github.com/niansia/research-meeting-coach"><img src="assets/work/research-meeting-coach.png" width="100%" alt="研究会议教练的证据工作流程"></a><br>
+<strong><a href="https://github.com/niansia/research-meeting-coach">研究会议教练</a></strong><br>
+<sub>仍处于 early alpha 阶段、以证据为核心的 Agent Skill，可将零散研究进展整理成导师能够据此决策的会议内容，并限制研究主张不超出现有证据。</sub>
+</td>
+</tr>
 </table>
-
-## 更多项目
-
-| 项目 | 实现内容 | 重点 |
-| --- | --- | --- |
-| **[研究会议教练](https://github.com/niansia/research-meeting-coach)** | 仍处于 early alpha 阶段、以证据为核心的 Agent Skill，可将零散研究进展整理成导师能够据此决策的会议内容，并限制研究主张不超出现有证据。 | 研究工作流程、证据约束、Agent Skill |
-| **[Fusion OS](https://github.com/niansia/fusion-os)** | 以 C# / WebView2 为外壳，搭配 React 与 TypeScript 界面，整合超过 25 个交互应用程序的桌面型环境。 | 交互式系统、桌面软件、多模态计算 |
-| **[花莲互助平台](https://github.com/niansia/fuxing)** | 支持灾情需求、志愿者协调与资源数据持久化的全栈原型。 | React、Node.js、SQLite、公益科技 |
 
 ## 延伸兴趣
 
