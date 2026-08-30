@@ -1,12 +1,12 @@
 <div align="center">
 
-# Hi, I'm niansia 👋
+# Hi, I'm Niansia 👋
 
 [繁體中文](https://github.com/niansia/niansia/blob/main/README.zh-TW.md) · [简体中文](https://github.com/niansia/niansia/blob/main/README.zh-CN.md) · **English**
 
-### Computer Science @ Yuan Ze University
+### Recent Computer Science graduate · Yuan Ze University
 
-**AI Security × Computer Vision × Vision-Language Models**
+**Trustworthy Multimodal AI × Auditable Model Evaluation**
 
 Researching the security, robustness, and reasoning capabilities of visual and multimodal intelligent systems.
 
@@ -20,7 +20,7 @@ Researching the security, robustness, and reasoning capabilities of visual and m
 
 I recently graduated with a degree in Computer Science from **Yuan Ze University (YZU)**. My primary interests lie at the intersection of **AI security, computer vision, and vision-language models**, with an emphasis on reliable multimodal reasoning and evaluation.
 
-I enjoy turning research questions into reproducible experiments and working systems, from evidence-aware research tools and model evaluation pipelines to interactive software. Some active research projects remain private during development and review; code, results, and reproducible artifacts will be released when appropriate.
+I turn research questions into reproducible experiments and working systems. My current flagship project is [Merriv](https://github.com/niansia/Merriv), a release-evidence layer that binds model artifacts, paired evaluation, statistical policy, and provenance for independent verification.
 
 ## Research interests
 
@@ -77,10 +77,6 @@ I enjoy turning research questions into reproducible experiments and working sys
 </td>
 </tr>
 </table>
-
-## Additional interests
-
-`Quantitative Machine Learning` · `Systems` · `Interactive Computing` · `Research Software`
 
 ## Tools
 
