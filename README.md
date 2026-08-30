@@ -20,7 +20,7 @@ Researching the security, robustness, and reasoning capabilities of visual and m
 
 I recently graduated with a degree in Computer Science from **Yuan Ze University (YZU)**. My primary interests lie at the intersection of **AI security, computer vision, and vision-language models**, with an emphasis on reliable multimodal reasoning and evaluation.
 
-I enjoy turning research questions into reproducible experiments and working systems—from evidence-aware research tools and model evaluation pipelines to interactive software. Some active research projects remain private during development and review; code, results, and reproducible artifacts will be released when appropriate.
+I enjoy turning research questions into reproducible experiments and working systems, from evidence-aware research tools and model evaluation pipelines to interactive software. Some active research projects remain private during development and review; code, results, and reproducible artifacts will be released when appropriate.
 
 ## Research interests
 
@@ -54,9 +54,9 @@ I enjoy turning research questions into reproducible experiments and working sys
 <table>
 <tr>
 <td width="50%" align="center" valign="top">
-<a href="https://github.com/niansia/NoveltyAudit"><img src="assets/work/noveltyaudit-architecture.png" width="100%" alt="NoveltyAudit evidence pipeline architecture"></a><br>
-<strong><a href="https://github.com/niansia/NoveltyAudit">NoveltyAudit</a></strong><br>
-<sub>Evidence-first tooling for adversarial scholarly novelty audits, with claim decomposition, historical cutoffs, and bridge-aware prior-work analysis.</sub>
+<a href="https://github.com/niansia/Merriv"><img src="assets/work/merriv-release-evidence-flow.svg" width="100%" alt="Merriv release evidence architecture"></a><br>
+<strong><a href="https://github.com/niansia/Merriv">Merriv</a></strong><br>
+<sub>A pre-alpha, vendor-neutral release-evidence layer for deployable AI models. It binds exact artifacts, paired evaluation, statistical policy, provenance, and regression onset into a portable Model Change Report for independent verification before promotion.</sub>
 </td>
 <td width="50%" align="center" valign="top">
 <a href="https://github.com/niansia/ChromaRecover"><img src="assets/work/chromarecover-architecture.png" width="100%" alt="ChromaRecover evidence-first computer vision architecture"></a><br>
@@ -64,15 +64,19 @@ I enjoy turning research questions into reproducible experiments and working sys
 <sub>An experimental public-alpha, local-first Python toolkit for recovering spatial structure carried by subtle color differences. It tests competing chromatic hypotheses, preserves auditable artifacts, and abstains when evidence is weak.</sub>
 </td>
 </tr>
+<tr>
+<td width="50%" align="center" valign="top">
+<a href="https://github.com/niansia/NoveltyAudit"><img src="assets/work/noveltyaudit-architecture.png" width="100%" alt="NoveltyAudit evidence pipeline architecture"></a><br>
+<strong><a href="https://github.com/niansia/NoveltyAudit">NoveltyAudit</a></strong><br>
+<sub>Evidence-first tooling for adversarial scholarly novelty audits, with claim decomposition, historical cutoffs, and bridge-aware prior-work analysis.</sub>
+</td>
+<td width="50%" align="center" valign="top">
+<a href="https://github.com/niansia/research-meeting-coach"><img src="assets/work/research-meeting-coach.png" width="100%" alt="Research Meeting Coach evidence workflow"></a><br>
+<strong><a href="https://github.com/niansia/research-meeting-coach">Research Meeting Coach</a></strong><br>
+<sub>An early-alpha, evidence-grounded Agent Skill that turns raw research progress into decision-ready advisor meetings while keeping claims within the supplied evidence.</sub>
+</td>
+</tr>
 </table>
-
-## More projects
-
-| Project | What I built | Focus |
-| --- | --- | --- |
-| **[Research Meeting Coach](https://github.com/niansia/research-meeting-coach)** | An early-alpha, evidence-grounded Agent Skill that turns raw research progress into decision-ready advisor meetings while keeping claims within the supplied evidence. | Research workflows, evidence grounding, agent skills |
-| **[Fusion OS](https://github.com/niansia/fusion-os)** | A desktop-like environment integrating more than 25 interactive applications through a C# / WebView2 shell and a React + TypeScript interface. | Interactive systems, desktop software, multimodal computing |
-| **[Hualien Mutual-Aid Platform](https://github.com/niansia/fuxing)** | A full-stack prototype for disaster requests, volunteer coordination, and persistent resource data. | React, Node.js, SQLite, civic tech |
 
 ## Additional interests
 
