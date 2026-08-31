@@ -20,7 +20,7 @@
 
 我今年刚从**元智大学（YZU）计算机科学专业**毕业，主要关注 **AI 安全、计算机视觉与视觉语言模型**的交叉领域，尤其是可靠的多模态推理与模型评估。
 
-我把研究问题转化为可复现的实验与可运行的系统。目前的项目包括 [ContextSec](https://github.com/niansia/ContextSec)，一个面向 AI 编程代理的确定性产品安全决策层，以及 [Merriv](https://github.com/niansia/Merriv)，一个用于独立验证模型变更的发布证据层。
+我把研究问题转化为可复现的实验与可运行的系统。目前的项目包括 [KCrashLab](https://github.com/niansia/KCrashLab)，一个用于可复现 Windows 驱动程序可靠性研究的确定性平台，以及 [ContextSec](https://github.com/niansia/ContextSec)，一个面向 AI 编程代理的产品安全决策层。
 
 ## 研究兴趣
 
@@ -66,9 +66,9 @@
 </tr>
 <tr>
 <td width="50%" align="center" valign="top">
-<a href="https://github.com/niansia/ai-repo-gardener"><img src="assets/work/ai-repo-gardener-demo.gif" width="100%" alt="AI Repo Gardener 证据导向代码仓库分析演示"></a><br>
-<strong><a href="https://github.com/niansia/ai-repo-gardener">AI Repo Gardener</a></strong><br>
-<sub>Public alpha 阶段、面向 AI 编辑 Python 代码仓库的静态分析工具与可移植 Agent Skill。系统结合导入可达性、Git 时序与规范化 AST 证据，将薄弱判断限制为仅供审查，并在删除前要求绑定哈希的计划与隔离验证。</sub>
+<a href="https://github.com/niansia/KCrashLab"><img src="assets/work/kcrashlab-evidence-flow.svg" width="100%" alt="KCrashLab 确定性崩溃研究证据流程"></a><br>
+<strong><a href="https://github.com/niansia/KCrashLab">KCrashLab</a></strong><br>
+<sub>已完成证据冻结的 Windows 驱动程序可靠性研究平台，涵盖规范化案例、可续跑实验、精确失效签名、触发条件最小化、3/3 模拟重放与语义证据验证，并明确区分模拟证据与受控的 Windows lab 路径。</sub>
 </td>
 <td width="50%" align="center" valign="top">
 <a href="https://github.com/niansia/ChromaRecover"><img src="assets/work/chromarecover-architecture.png" width="100%" alt="ChromaRecover 证据优先的计算机视觉架构"></a><br>
