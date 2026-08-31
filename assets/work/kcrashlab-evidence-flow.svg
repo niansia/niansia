@@ -1,0 +1,128 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 430" role="img" aria-labelledby="title description">
+  <title id="title">KCrashLab deterministic crash research evidence workflow</title>
+  <desc id="description">Canonical cases pass through deterministic simulation, exact failure identity, minimization and replay, then semantic evidence verification. All recorded public evidence is simulated.</desc>
+  <style>
+    :root {
+      color-scheme: light dark;
+      --canvas: #f8fafc;
+      --surface: #ffffff;
+      --surface-strong: #eef4ff;
+      --text: #111827;
+      --muted: #526071;
+      --line: #cbd5e1;
+      --accent: #2457a6;
+      --accent-soft: #dbeafe;
+      --evidence: #0f766e;
+      --evidence-soft: #ccfbf1;
+      --warning: #a84b24;
+      --warning-soft: #ffedd5;
+    }
+
+    @media (prefers-color-scheme: dark) {
+      :root {
+        --canvas: #0d1117;
+        --surface: #161b22;
+        --surface-strong: #17243a;
+        --text: #f0f6fc;
+        --muted: #a5afba;
+        --line: #30363d;
+        --accent: #6aa9ff;
+        --accent-soft: #1f3b5b;
+        --evidence: #62d4c9;
+        --evidence-soft: #143d39;
+        --warning: #f2a06f;
+        --warning-soft: #4a2b1c;
+      }
+    }
+
+    text {
+      font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      fill: var(--text);
+    }
+
+    .canvas { fill: var(--canvas); }
+    .eyebrow { fill: var(--accent); font-size: 13px; font-weight: 700; letter-spacing: 1.4px; }
+    .heading { font-size: 27px; font-weight: 750; }
+    .subtitle { fill: var(--muted); font-size: 15px; }
+    .card { fill: var(--surface); stroke: var(--line); stroke-width: 1.5; }
+    .card-strong { fill: var(--surface-strong); stroke: var(--accent); stroke-width: 2; }
+    .stage { font-size: 16px; font-weight: 700; text-anchor: middle; }
+    .body { fill: var(--muted); font-size: 13px; text-anchor: middle; }
+    .arrow { fill: none; stroke: var(--accent); stroke-width: 2; }
+    .number { fill: var(--accent); }
+    .number-text { fill: #ffffff; font-size: 12px; font-weight: 700; text-anchor: middle; }
+    .evidence-band { fill: var(--evidence-soft); stroke: var(--evidence); stroke-width: 1.5; }
+    .evidence-text { fill: var(--evidence); font-size: 14px; font-weight: 700; text-anchor: middle; }
+    .warning-band { fill: var(--warning-soft); stroke: var(--warning); stroke-width: 1.5; }
+    .warning-text { fill: var(--warning); font-size: 13px; font-weight: 700; text-anchor: middle; }
+  </style>
+
+  <defs>
+    <marker id="arrowhead" markerWidth="8" markerHeight="8" refX="7" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="var(--accent)" />
+    </marker>
+  </defs>
+
+  <rect class="canvas" width="1200" height="430" rx="18" />
+
+  <text class="eyebrow" x="40" y="42">KCRASHLAB / REPRODUCIBLE FAILURE RESEARCH</text>
+  <text class="heading" x="40" y="75">From deterministic cases to independently checkable evidence</text>
+  <text class="subtitle" x="40" y="100">Simulation-first by default. Real Windows-lab work remains separately gated and unclaimed.</text>
+
+  <path class="arrow" marker-end="url(#arrowhead)" d="M238 214 H267" />
+  <path class="arrow" marker-end="url(#arrowhead)" d="M461 214 H490" />
+  <path class="arrow" marker-end="url(#arrowhead)" d="M684 214 H713" />
+  <path class="arrow" marker-end="url(#arrowhead)" d="M907 214 H936" />
+
+  <g>
+    <rect class="card" x="40" y="137" width="198" height="154" rx="14" />
+    <circle class="number" cx="66" cy="163" r="13" />
+    <text class="number-text" x="66" y="167">1</text>
+    <text class="stage" x="139" y="204">Canonical Case IR</text>
+    <text class="body" x="139" y="231">Versioned semantic identity</text>
+    <text class="body" x="139" y="254">SHA-256 plus lineage</text>
+  </g>
+
+  <g>
+    <rect class="card" x="267" y="137" width="194" height="154" rx="14" />
+    <circle class="number" cx="293" cy="163" r="13" />
+    <text class="number-text" x="293" y="167">2</text>
+    <text class="stage" x="364" y="204">Deterministic run</text>
+    <text class="body" x="364" y="231">Seeded scheduling</text>
+    <text class="body" x="364" y="254">Resumable SQLite journal</text>
+  </g>
+
+  <g>
+    <rect class="card" x="490" y="137" width="194" height="154" rx="14" />
+    <circle class="number" cx="516" cy="163" r="13" />
+    <text class="number-text" x="516" y="167">3</text>
+    <text class="stage" x="587" y="204">Exact finding</text>
+    <text class="body" x="587" y="231">Versioned signature</text>
+    <text class="body" x="587" y="254">Failure-closed triage</text>
+  </g>
+
+  <g>
+    <rect class="card" x="713" y="137" width="194" height="154" rx="14" />
+    <circle class="number" cx="739" cy="163" r="13" />
+    <text class="number-text" x="739" y="167">4</text>
+    <text class="stage" x="810" y="204">Minimize + replay</text>
+    <text class="body" x="810" y="231">Signature-preserving trigger</text>
+    <text class="body" x="810" y="254">3 of 3 simulated replay</text>
+  </g>
+
+  <g>
+    <rect class="card-strong" x="936" y="127" width="224" height="174" rx="16" />
+    <circle class="number" cx="962" cy="153" r="13" />
+    <text class="number-text" x="962" y="157">5</text>
+    <text class="stage" x="1048" y="197">Evidence closure</text>
+    <text class="body" x="1048" y="224">Hashes plus semantic checks</text>
+    <text class="body" x="1048" y="247">Provenance and claims ledger</text>
+    <text class="body" x="1048" y="270">Independent rerun contract</text>
+  </g>
+
+  <rect class="evidence-band" x="40" y="328" width="728" height="50" rx="11" />
+  <text class="evidence-text" x="404" y="358">Recorded G3, E1, E2, and minimization-replay artifacts</text>
+
+  <rect class="warning-band" x="788" y="328" width="372" height="50" rx="11" />
+  <text class="warning-text" x="974" y="358">PUBLIC EVIDENCE: SIMULATED ONLY</text>
+</svg>

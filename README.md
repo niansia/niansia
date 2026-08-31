@@ -20,7 +20,7 @@ Researching the security, robustness, and reasoning capabilities of visual and m
 
 I recently graduated with a degree in Computer Science from **Yuan Ze University (YZU)**. My primary interests lie at the intersection of **AI security, computer vision, and vision-language models**, with an emphasis on reliable multimodal reasoning and evaluation.
 
-I turn research questions into reproducible experiments and working systems. Current projects include [ContextSec](https://github.com/niansia/ContextSec), a deterministic product-security decision layer for AI coding agents, and [Merriv](https://github.com/niansia/Merriv), a release-evidence layer for independently verifiable model changes.
+I turn research questions into reproducible experiments and working systems. Current projects include [KCrashLab](https://github.com/niansia/KCrashLab), a deterministic platform for reproducible Windows driver reliability research, and [ContextSec](https://github.com/niansia/ContextSec), a product-security decision layer for AI coding agents.
 
 ## Research interests
 
@@ -66,9 +66,9 @@ I turn research questions into reproducible experiments and working systems. Cur
 </tr>
 <tr>
 <td width="50%" align="center" valign="top">
-<a href="https://github.com/niansia/ai-repo-gardener"><img src="assets/work/ai-repo-gardener-demo.gif" width="100%" alt="AI Repo Gardener evidence-backed repository analysis demo"></a><br>
-<strong><a href="https://github.com/niansia/ai-repo-gardener">AI Repo Gardener</a></strong><br>
-<sub>A public-alpha static-analysis tool and portable Agent Skill for AI-edited Python repositories. It combines import reachability, Git chronology, and normalized-AST evidence, keeps weak findings review-only, and requires a hash-bound plan with isolated validation before deletion.</sub>
+<a href="https://github.com/niansia/KCrashLab"><img src="assets/work/kcrashlab-evidence-flow.svg" width="100%" alt="KCrashLab deterministic crash research evidence workflow"></a><br>
+<strong><a href="https://github.com/niansia/KCrashLab">KCrashLab</a></strong><br>
+<sub>Evidence-frozen research platform for deterministic Windows driver reliability experiments. It combines canonical cases, resumable campaigns, exact failure signatures, minimization, 3/3 simulated replay, and semantic artifact verification while clearly separating simulated evidence from the gated Windows-lab track.</sub>
 </td>
 <td width="50%" align="center" valign="top">
 <a href="https://github.com/niansia/ChromaRecover"><img src="assets/work/chromarecover-architecture.png" width="100%" alt="ChromaRecover evidence-first computer vision architecture"></a><br>
