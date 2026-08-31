@@ -6,13 +6,13 @@
 
 ### Recent Computer Science graduate · Yuan Ze University
 
-**Trustworthy Multimodal AI × Auditable Model Evaluation**
+**AI Security × Trustworthy Evaluation × Evidence-Grounded Systems**
 
 Researching the security, robustness, and reasoning capabilities of visual and multimodal intelligent systems.
 
 **Currently applying to graduate programs in computer science.**
 
-[Website](https://niansia.github.io) · [Research](https://niansia.github.io/#research) · [Projects](https://niansia.github.io/#work) · [Email](mailto:wilbur930202@gmail.com)
+[Website](https://niansia.github.io) · [Research](https://niansia.github.io/#research) · [Portfolio](https://niansia.github.io/work/) · [Email](mailto:wilbur930202@gmail.com)
 
 </div>
 
@@ -20,7 +20,7 @@ Researching the security, robustness, and reasoning capabilities of visual and m
 
 I recently graduated with a degree in Computer Science from **Yuan Ze University (YZU)**. My primary interests lie at the intersection of **AI security, computer vision, and vision-language models**, with an emphasis on reliable multimodal reasoning and evaluation.
 
-I turn research questions into reproducible experiments and working systems. My current flagship project is [Merriv](https://github.com/niansia/Merriv), a release-evidence layer that binds model artifacts, paired evaluation, statistical policy, and provenance for independent verification.
+I turn research questions into reproducible experiments and working systems. Current projects include [ContextSec](https://github.com/niansia/ContextSec), a deterministic product-security decision layer for AI coding agents, and [Merriv](https://github.com/niansia/Merriv), a release-evidence layer for independently verifiable model changes.
 
 ## Research interests
 
@@ -54,26 +54,26 @@ I turn research questions into reproducible experiments and working systems. My 
 <table>
 <tr>
 <td width="50%" align="center" valign="top">
+<a href="https://github.com/niansia/ContextSec"><img src="assets/work/contextsec-decision-flow.svg" width="100%" alt="ContextSec deterministic product-security decision flow"></a><br>
+<strong><a href="https://github.com/niansia/ContextSec">ContextSec</a></strong><br>
+<sub>A research-preview, deterministic product-security decision layer for AI coding agents. It derives applicable risk packs from bounded repository evidence, composes cross-context controls, and emits a verifiable Control Evaluation Ledger with an explicit release gate.</sub>
+</td>
+<td width="50%" align="center" valign="top">
 <a href="https://github.com/niansia/Merriv"><img src="assets/work/merriv-release-evidence-flow.svg" width="100%" alt="Merriv release evidence architecture"></a><br>
 <strong><a href="https://github.com/niansia/Merriv">Merriv</a></strong><br>
 <sub>A pre-alpha, vendor-neutral release-evidence layer for deployable AI models. It binds exact artifacts, paired evaluation, statistical policy, provenance, and regression onset into a portable Model Change Report for independent verification before promotion.</sub>
+</td>
+</tr>
+<tr>
+<td width="50%" align="center" valign="top">
+<a href="https://github.com/niansia/ai-repo-gardener"><img src="assets/work/ai-repo-gardener-demo.gif" width="100%" alt="AI Repo Gardener evidence-backed repository analysis demo"></a><br>
+<strong><a href="https://github.com/niansia/ai-repo-gardener">AI Repo Gardener</a></strong><br>
+<sub>A public-alpha static-analysis tool and portable Agent Skill for AI-edited Python repositories. It combines import reachability, Git chronology, and normalized-AST evidence, keeps weak findings review-only, and requires a hash-bound plan with isolated validation before deletion.</sub>
 </td>
 <td width="50%" align="center" valign="top">
 <a href="https://github.com/niansia/ChromaRecover"><img src="assets/work/chromarecover-architecture.png" width="100%" alt="ChromaRecover evidence-first computer vision architecture"></a><br>
 <strong><a href="https://github.com/niansia/ChromaRecover">ChromaRecover</a></strong><br>
 <sub>An experimental public-alpha, local-first Python toolkit for recovering spatial structure carried by subtle color differences. It tests competing chromatic hypotheses, preserves auditable artifacts, and abstains when evidence is weak.</sub>
-</td>
-</tr>
-<tr>
-<td width="50%" align="center" valign="top">
-<a href="https://github.com/niansia/NoveltyAudit"><img src="assets/work/noveltyaudit-architecture.png" width="100%" alt="NoveltyAudit evidence pipeline architecture"></a><br>
-<strong><a href="https://github.com/niansia/NoveltyAudit">NoveltyAudit</a></strong><br>
-<sub>Evidence-first tooling for adversarial scholarly novelty audits, with claim decomposition, historical cutoffs, and bridge-aware prior-work analysis.</sub>
-</td>
-<td width="50%" align="center" valign="top">
-<a href="https://github.com/niansia/research-meeting-coach"><img src="assets/work/research-meeting-coach.png" width="100%" alt="Research Meeting Coach evidence workflow"></a><br>
-<strong><a href="https://github.com/niansia/research-meeting-coach">Research Meeting Coach</a></strong><br>
-<sub>An early-alpha, evidence-grounded Agent Skill that turns raw research progress into decision-ready advisor meetings while keeping claims within the supplied evidence.</sub>
 </td>
 </tr>
 </table>
