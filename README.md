@@ -4,13 +4,13 @@
 
 [繁體中文](https://github.com/niansia/niansia/blob/main/README.zh-TW.md) · [简体中文](https://github.com/niansia/niansia/blob/main/README.zh-CN.md) · **English**
 
-### Recent Computer Science graduate · Yuan Ze University
+### M.S. student · National Yang Ming Chiao Tung University
 
 **AI Security × Trustworthy Evaluation × Evidence-Grounded Systems**
 
 Researching the security, robustness, and reasoning capabilities of visual and multimodal intelligent systems.
 
-**Currently applying to graduate programs in computer science.**
+**Currently taking a one-year leave of absence from the master's program.**
 
 [Website](https://niansia.github.io) · [Research](https://niansia.github.io/#research) · [Portfolio](https://niansia.github.io/work/) · [Email](mailto:wilbur930202@gmail.com)
 
@@ -18,7 +18,7 @@ Researching the security, robustness, and reasoning capabilities of visual and m
 
 ## About
 
-I recently graduated with a degree in Computer Science from **Yuan Ze University (YZU)**. My primary interests lie at the intersection of **AI security, computer vision, and vision-language models**, with an emphasis on reliable multimodal reasoning and evaluation.
+I earned my degree in Computer Science from **Yuan Ze University (YZU)** and am now enrolled in a master's program at **National Yang Ming Chiao Tung University (NYCU)**. I am currently taking a one-year leave of absence. My primary interests lie at the intersection of **AI security, computer vision, and vision-language models**, with an emphasis on reliable multimodal reasoning and evaluation.
 
 I turn research questions into reproducible experiments and working systems. Current projects include [KCrashLab](https://github.com/niansia/KCrashLab), a deterministic platform for reproducible Windows driver reliability research, and [ContextSec](https://github.com/niansia/ContextSec), a product-security decision layer for AI coding agents.
 

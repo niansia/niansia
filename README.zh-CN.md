@@ -4,13 +4,13 @@
 
 [繁體中文](https://github.com/niansia/niansia/blob/main/README.zh-TW.md) · **简体中文** · [English](https://github.com/niansia/niansia/blob/main/README.md)
 
-### 元智大学计算机科学应届毕业生
+### 国立阳明交通大学硕士生 · 目前休学一年
 
 **AI 安全 × 可信赖评估 × 证据导向系统**
 
 研究视觉与多模态智能系统的安全性、鲁棒性与推理能力。
 
-**目前正在申请计算机科学相关研究生项目。**
+**目前为阳明交通大学硕士生，现正休学一年。**
 
 [个人网站](https://niansia.github.io/zh-cn/) · [研究方向](https://niansia.github.io/zh-cn/#research) · [作品集](https://niansia.github.io/zh-cn/work/) · [Email](mailto:wilbur930202@gmail.com)
 
@@ -18,7 +18,7 @@
 
 ## 关于我
 
-我今年刚从**元智大学（YZU）计算机科学专业**毕业，主要关注 **AI 安全、计算机视觉与视觉语言模型**的交叉领域，尤其是可靠的多模态推理与模型评估。
+我毕业于**元智大学（YZU）计算机科学专业**，目前就读**国立阳明交通大学（NYCU）硕士班**，现正休学一年。我的研究主要关注 **AI 安全、计算机视觉与视觉语言模型**的交叉领域，尤其是可靠的多模态推理与模型评估。
 
 我把研究问题转化为可复现的实验与可运行的系统。目前的项目包括 [KCrashLab](https://github.com/niansia/KCrashLab)，一个用于可复现 Windows 驱动程序可靠性研究的确定性平台，以及 [ContextSec](https://github.com/niansia/ContextSec)，一个面向 AI 编程代理的产品安全决策层。
 
