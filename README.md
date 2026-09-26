@@ -20,7 +20,7 @@ Researching the security, robustness, and reasoning capabilities of visual and m
 
 I earned my degree in Computer Science from **Yuan Ze University (YZU)** and am now enrolled in a master's program at **National Yang Ming Chiao Tung University (NYCU)**. I am currently taking a one-year leave of absence. My primary interests lie at the intersection of **AI security, computer vision, and vision-language models**, with an emphasis on reliable multimodal reasoning and evaluation.
 
-I turn research questions into reproducible experiments and working systems. Current projects include [KCrashLab](https://github.com/niansia/KCrashLab), a deterministic platform for reproducible Windows driver reliability research, and [ContextSec](https://github.com/niansia/ContextSec), a product-security decision layer for AI coding agents.
+I turn research questions and practical needs into reproducible tools. Current projects include [KCrashLab](https://github.com/niansia/KCrashLab), a deterministic platform for Windows driver reliability research, and [Taiwan Exam](https://github.com/niansia/taiwan-exam), an Agent Skill for creating and checking original GSAT practice exams.
 
 ## Research interests
 
@@ -54,9 +54,9 @@ I turn research questions into reproducible experiments and working systems. Cur
 <table>
 <tr>
 <td width="50%" align="center" valign="top">
-<a href="https://github.com/niansia/ContextSec"><img src="assets/work/contextsec-decision-flow.svg" width="100%" alt="ContextSec deterministic product-security decision flow"></a><br>
-<strong><a href="https://github.com/niansia/ContextSec">ContextSec</a></strong><br>
-<sub>A research-preview, deterministic product-security decision layer for AI coding agents. It derives applicable risk packs from bounded repository evidence, composes cross-context controls, and emits a verifiable Control Evaluation Ledger with an explicit release gate.</sub>
+<a href="https://github.com/niansia/taiwan-exam"><img src="assets/work/taiwan-exam-social-preview.png" width="100%" alt="Taiwan Exam: an Agent Skill for original GSAT practice exams"></a><br>
+<strong><a href="https://github.com/niansia/taiwan-exam">Taiwan Exam</a></strong><br>
+<sub>An Agent Skill for creating original Taiwan GSAT practice exams. It supports seven subjects, checks answers and difficulty, uses official exam layout templates, and delivers separate question and worked-solution PDFs. CAP and subject-test support is still in development.</sub>
 </td>
 <td width="50%" align="center" valign="top">
 <a href="https://github.com/niansia/Merriv"><img src="assets/work/merriv-release-evidence-flow.svg" width="100%" alt="Merriv release evidence architecture"></a><br>
@@ -82,6 +82,10 @@ I turn research questions into reproducible experiments and working systems. Cur
 
 `Python` · `PyTorch` · `OpenCV` · `scikit-learn` · `Jupyter` · `C# / .NET` · `React` · `TypeScript` · `Node.js` · `SQLite` · `Git`
 
+<p align="center"><img src="assets/readme/research-lab.gif" width="960" alt="A snail-hooded cat types at a research terminal while evidence checks and a small pipeline light up."></p>
+
 ## Contact
 
 I welcome thoughtful conversations about AI security, CV / VLM reasoning, trustworthy machine learning, reproducibility, and research tooling. Feel free to contact me at **[wilbur930202@gmail.com](mailto:wilbur930202@gmail.com)**.
+
+<p align="center"><img src="assets/readme/contact-signal.gif" width="960" alt="A small signal travels along a circuit path into an envelope, inviting research conversations."></p>

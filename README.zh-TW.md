@@ -20,7 +20,7 @@
 
 我畢業於**元智大學（YZU）資訊工程學系**，目前就讀**國立陽明交通大學（NYCU）碩士班**，現正休學一年。我的研究主要關注 **AI 安全、電腦視覺與視覺語言模型**的交叉領域，尤其是可靠的多模態推理與模型評估。
 
-我把研究問題轉化成可重現的實驗與可運作的系統。目前的專案包括 [KCrashLab](https://github.com/niansia/KCrashLab)，一個用於可重現 Windows 驅動程式可靠性研究的確定性平台，以及 [ContextSec](https://github.com/niansia/ContextSec)，一個面向 AI 程式代理的產品安全決策層。
+我把研究問題與實際需求轉化成可重現的工具。目前的專案包括 [KCrashLab](https://github.com/niansia/KCrashLab)，一個用於 Windows 驅動程式可靠性研究的確定性平台，以及 [Taiwan Exam](https://github.com/niansia/taiwan-exam)，一個用於產生並檢查原創學測模擬考的 Agent Skill。
 
 ## 研究興趣
 
@@ -54,9 +54,9 @@
 <table>
 <tr>
 <td width="50%" align="center" valign="top">
-<a href="https://github.com/niansia/ContextSec"><img src="assets/work/contextsec-decision-flow.svg" width="100%" alt="ContextSec 確定性產品安全決策流程"></a><br>
-<strong><a href="https://github.com/niansia/ContextSec">ContextSec</a></strong><br>
-<sub>研究預覽階段、面向 AI 程式代理的確定性產品安全決策層。系統從有界的儲存庫證據推導實際適用的風險包、組合跨情境控制項，並輸出可驗證的 Control Evaluation Ledger 與明確的發布閘門。</sub>
+<a href="https://github.com/niansia/taiwan-exam"><img src="assets/work/taiwan-exam-social-preview.png" width="100%" alt="Taiwan Exam：原創學測模擬考命題 Agent Skill"></a><br>
+<strong><a href="https://github.com/niansia/taiwan-exam">Taiwan Exam</a></strong><br>
+<sub>用於產生原創學測模擬考的 Agent Skill，目前支援七科。流程包含命題、答案與難度檢查、套用大考正式版面，並分開交付題目 PDF 與答案詳解 PDF；會考與分科測驗仍在製作中。</sub>
 </td>
 <td width="50%" align="center" valign="top">
 <a href="https://github.com/niansia/Merriv"><img src="assets/work/merriv-release-evidence-flow.svg" width="100%" alt="Merriv 模型發布證據架構"></a><br>
@@ -82,6 +82,8 @@
 
 `Python` · `PyTorch` · `OpenCV` · `scikit-learn` · `Jupyter` · `C# / .NET` · `React` · `TypeScript` · `Node.js` · `SQLite` · `Git`
 
+<p align="center"><img src="assets/readme/research-lab.gif" width="960" alt="戴蝸牛帽的小貓在研究終端機前打字，旁邊的證據檢查與流程節點輪流亮起。"></p>
+
 ## 聯絡與合作
 
 > **想一起研究嗎？**
@@ -97,3 +99,5 @@
 > 也期待遇見願意一起把問題想深、把實驗做紮實，並把研究過程整理得更可重現的人喵
 >
 > `(=^･ω･^=)`
+
+<p align="center"><img src="assets/readme/contact-signal.gif" width="960" alt="小訊號沿著電路線移動，最後送進信封，邀請交流研究。"></p>
