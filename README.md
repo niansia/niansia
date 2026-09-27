@@ -12,7 +12,7 @@ Researching the security, robustness, and reasoning capabilities of visual and m
 
 **Currently taking a one-year leave of absence from the master's program.**
 
-[Website](https://niansia.github.io) · [Research](https://niansia.github.io/#research) · [Portfolio](https://niansia.github.io/work/) · [Email](mailto:wilbur930202@gmail.com)
+[Website](https://niansia.github.io) · [Research](https://niansia.github.io/#research) · [Portfolio](https://niansia.github.io/work/) · [Email](mailto:niansia930202@gmail.com)
 
 </div>
 
@@ -86,6 +86,6 @@ I turn research questions and practical needs into reproducible tools. Current p
 
 ## Contact
 
-I welcome thoughtful conversations about AI security, CV / VLM reasoning, trustworthy machine learning, reproducibility, and research tooling. Feel free to contact me at **[wilbur930202@gmail.com](mailto:wilbur930202@gmail.com)**.
+I welcome thoughtful conversations about AI security, CV / VLM reasoning, trustworthy machine learning, reproducibility, and research tooling. Feel free to contact me at **[niansia930202@gmail.com](mailto:niansia930202@gmail.com)**.
 
 <p align="center"><img src="assets/readme/contact-signal.gif" width="960" alt="A small signal travels along a circuit path into an envelope, inviting research conversations."></p>

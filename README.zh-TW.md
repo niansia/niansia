@@ -12,7 +12,7 @@
 
 **目前為陽明交通大學碩士生，現正休學一年。**
 
-[個人網站](https://niansia.github.io/zh-tw/) · [研究方向](https://niansia.github.io/zh-tw/#research) · [作品集](https://niansia.github.io/zh-tw/work/) · [Email](mailto:wilbur930202@gmail.com)
+[個人網站](https://niansia.github.io/zh-tw/) · [研究方向](https://niansia.github.io/zh-tw/#research) · [作品集](https://niansia.github.io/zh-tw/work/) · [Email](mailto:niansia930202@gmail.com)
 
 </div>
 
@@ -94,7 +94,7 @@
 >
 > 如果你正在尋找研究夥伴、有跨領域題目想討論，或剛好發現值得深入研究的 dataset、evaluation setting 或 failure case，也都可以寄信給我喵
 >
-> 聯絡信箱是 **[wilbur930202@gmail.com](mailto:wilbur930202@gmail.com)**，我可能無法每次都立刻回覆，但有看到就會認真閱讀喵
+> 聯絡信箱是 **[niansia930202@gmail.com](mailto:niansia930202@gmail.com)**，我可能無法每次都立刻回覆，但有看到就會認真閱讀喵
 >
 > 也期待遇見願意一起把問題想深、把實驗做紮實，並把研究過程整理得更可重現的人喵
 >
