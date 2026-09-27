@@ -1,0 +1,79 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- Profile cover template. Rendered by tools/render_readme_assets.py as ?lang=en|zh-TW|zh-CN&theme=light|dark -->
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;800&family=JetBrains+Mono:wght@400;500&family=Noto+Sans+TC:wght@400;500;700;900&family=Noto+Sans+SC:wght@400;500;700;900&display=swap">
+<style>
+:root{--bg:#fbf6ee;--bg2:#f4ebdf;--ink:#2a2230;--muted:#7b6f76;--accent:#c0673a;--accent2:#8f6bb3;--line:#2a223014;--card:#fffdf9;--glow:#f2c9a6;--dot:#2a22301a;}
+.dark{--bg:#15142a;--bg2:#1d1b38;--ink:#f5efe6;--muted:#a9a2bd;--accent:#f0a878;--accent2:#b69ae6;--line:#ffffff14;--card:#221f40;--glow:#6d4fa8;--dot:#ffffff14;}
+*{box-sizing:border-box;margin:0;}
+html,body{width:1280px;height:400px;overflow:hidden;background:var(--bg);}
+body{font-family:Inter,'Noto Sans TC','Noto Sans SC',sans-serif;color:var(--ink);}
+.zh-CN body,.zh-CN{font-family:Inter,'Noto Sans SC',sans-serif;}
+.cover{position:relative;width:1280px;height:400px;overflow:hidden;background:radial-gradient(900px 420px at 88% 30%,color-mix(in srgb,var(--glow) 55%,transparent),transparent 65%),linear-gradient(120deg,var(--bg) 40%,var(--bg2));}
+.cover:before{content:'';position:absolute;inset:0;background-image:radial-gradient(var(--dot) 1.2px,transparent 1.4px);background-size:22px 22px;mask-image:linear-gradient(90deg,#000 0%,#0000 55%,#000 100%);}
+.stars i{position:absolute;width:3px;height:3px;border-radius:50%;background:#fff;opacity:.0;}
+.dark .stars i{opacity:.55;}
+.text{position:absolute;left:64px;top:52px;width:720px;}
+.kicker{font:500 15px 'JetBrains Mono',monospace;color:var(--muted);display:flex;align-items:center;gap:10px;}
+.kicker b{color:var(--accent);font-weight:500;}
+.kicker .cur{display:inline-block;width:9px;height:17px;background:var(--accent);}
+h1{margin-top:14px;font:800 92px/1 Inter,sans-serif;letter-spacing:-.035em;}
+h1 span{background:linear-gradient(95deg,var(--ink) 30%,var(--accent) 75%,var(--accent2));-webkit-background-clip:text;background-clip:text;color:transparent;}
+.role{margin-top:16px;font-weight:700;font-size:22px;}
+.role small{font-weight:500;color:var(--muted);font-size:18px;margin-left:10px;}
+.chips{display:flex;flex-wrap:wrap;gap:10px;margin-top:22px;}
+.chip{font:600 16px Inter,'Noto Sans TC','Noto Sans SC',sans-serif;padding:8px 15px;border-radius:99px;background:var(--card);box-shadow:0 0 0 1px var(--line),0 8px 20px -14px #0006;}
+.chip i{font-style:normal;color:var(--accent);margin-right:7px;}
+.now{margin-top:22px;font:500 15px 'JetBrains Mono','Noto Sans TC','Noto Sans SC',monospace;color:var(--muted);}
+.now b{color:var(--ink);font-weight:500;}
+.art{position:absolute;right:92px;top:22px;width:300px;height:378px;}
+.halo{position:absolute;left:50%;top:44%;width:330px;height:330px;margin:-165px 0 0 -165px;border-radius:50%;background:radial-gradient(circle,color-mix(in srgb,var(--glow) 90%,transparent),transparent 70%);}
+.ring{position:absolute;left:50%;top:44%;width:300px;height:300px;margin:-150px 0 0 -150px;border-radius:50%;border:1.5px dashed color-mix(in srgb,var(--accent) 55%,transparent);}
+.yuki{position:absolute;left:50%;top:0;width:282px;transform:translateX(-50%);filter:drop-shadow(0 18px 24px #0003);}
+.float{position:absolute;font:500 13px 'JetBrains Mono',monospace;color:var(--ink);background:var(--card);padding:8px 12px;border-radius:12px;box-shadow:0 0 0 1px var(--line),0 12px 26px -16px #0007;white-space:nowrap;}
+.float b{color:#3f9b74;font-weight:500;}
+.dark .float b{color:#7fe0b3;}
+.float em{font-style:normal;color:var(--accent);}
+.fade{position:absolute;left:0;right:0;bottom:0;height:40px;background:linear-gradient(transparent,var(--bg2));}
+</style>
+</head>
+<body>
+<div class="cover" id="cover">
+  <div class="stars" id="stars"></div>
+  <div class="text">
+    <div class="kicker"><b>~/niansia</b><span>$ whoami</span><span class="cur"></span></div>
+    <h1><span>Niansia</span></h1>
+    <div class="role" id="role"></div>
+    <div class="chips" id="chips"></div>
+    <div class="now" id="now"></div>
+  </div>
+  <div class="art">
+    <div class="halo"></div><div class="ring"></div>
+    <img class="yuki" src="../assets/readme/yuki-researcher.png" alt="">
+  </div>
+  <div class="float" style="right:390px;top:74px"><b>✓</b> eval --held-out</div>
+  <div class="float" style="right:34px;top:118px"><em>VLM</em> · reasoning</div>
+  <div class="float" style="right:372px;top:236px"><em>24.57</em> dB · LumiGrid</div>
+  <div class="float" style="right:40px;top:262px"><b>●</b> reproducible</div>
+  <div class="fade"></div>
+</div>
+<script>
+const q = new URLSearchParams(location.search), L = q.get('lang') || 'en', dark = q.get('theme') === 'dark';
+document.documentElement.className = `${dark ? 'dark' : ''} ${L}`;
+document.documentElement.lang = L === 'en' ? 'en' : L === 'zh-CN' ? 'zh-Hans' : 'zh-Hant';
+const T = {
+  en: {role: 'M.S. student in Computer Science · NYCU', leave: 'on a one-year leave', chips: [['◆', 'AI Security'], ['◆', 'Computer Vision'], ['◆', 'Vision-Language Models']], now: 'now → <b>preparing CVPR · ICCV · COLM 2027 submissions</b>'},
+  'zh-TW': {role: '陽明交大資工碩士生', leave: '休學一年中', chips: [['◆', 'AI 安全'], ['◆', '電腦視覺'], ['◆', '視覺語言模型']], now: 'now → <b>準備投稿 CVPR · ICCV · COLM 2027</b>'},
+  'zh-CN': {role: '阳明交大资工硕士生', leave: '休学一年中', chips: [['◆', 'AI 安全'], ['◆', '计算机视觉'], ['◆', '视觉语言模型']], now: 'now → <b>准备投稿 CVPR · ICCV · COLM 2027</b>'},
+}[L];
+document.getElementById('role').innerHTML = `${T.role}<small>${T.leave}</small>`;
+document.getElementById('chips').innerHTML = T.chips.map(([i, t]) => `<span class="chip"><i>${i}</i>${t}</span>`).join('');
+document.getElementById('now').innerHTML = T.now;
+const s = document.getElementById('stars');
+for (let i = 0; i < 46; i++) { const r = n => { const v = Math.sin(i * 91.7 + n * 13.1) * 43758.5; return v - Math.floor(v); }; const e = document.createElement('i'); e.style.left = `${r(1) * 1280}px`; e.style.top = `${r(2) * 400}px`; e.style.transform = `scale(${.4 + r(3)})`; s.append(e); }
+</script>
+</body>
+</html>

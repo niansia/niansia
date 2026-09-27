@@ -1,30 +1,34 @@
 <div align="center">
 
-# 嗨，我是 Niansia 👋
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/readme/cover-zh-TW-dark.jpg">
+  <img src="assets/readme/cover-zh-TW-light.jpg" width="100%" alt="Niansia：陽明交大資工碩士生，研究 AI 安全、電腦視覺與視覺語言模型">
+</picture>
 
 **繁體中文** · [简体中文](https://github.com/niansia/niansia/blob/main/README.zh-CN.md) · [English](https://github.com/niansia/niansia/blob/main/README.md)
 
-### 國立陽明交通大學碩士生 · 目前休學一年
+<a href="https://niansia.github.io/zh-tw/"><img src="https://img.shields.io/badge/%E5%80%8B%E4%BA%BA%E7%B6%B2%E7%AB%99-niansia.github.io-c0673a?style=for-the-badge&logo=githubpages&logoColor=white" alt="個人網站: niansia.github.io"></a> <a href="https://niansia.github.io/zh-tw/#research"><img src="https://img.shields.io/badge/%E7%A0%94%E7%A9%B6%E6%96%B9%E5%90%91-AI_%E5%AE%89%E5%85%A8_%C2%B7_CV_%C2%B7_VLM-8f6bb3?style=for-the-badge&logo=googlescholar&logoColor=white" alt="研究方向: AI 安全 · CV · VLM"></a> <a href="https://niansia.github.io/zh-tw/work/"><img src="https://img.shields.io/badge/%E4%BD%9C%E5%93%81%E9%9B%86-10_%E5%80%8B%E5%B0%88%E6%A1%88-3f9b74?style=for-the-badge&logo=files&logoColor=white" alt="作品集: 10 個專案"></a> <a href="mailto:niansia930202@gmail.com"><img src="https://img.shields.io/badge/Email-niansia930202%40gmail.com-2a2230?style=for-the-badge&logo=gmail&logoColor=white" alt="Email: niansia930202@gmail.com"></a>
 
-**AI 安全 × 可信任評估 × 證據導向系統**
-
-研究視覺與多模態智慧系統的安全性、穩健性與推理能力。
-
-**目前為陽明交通大學碩士生，現正休學一年。**
-
-[個人網站](https://niansia.github.io/zh-tw/) · [研究方向](https://niansia.github.io/zh-tw/#research) · [作品集](https://niansia.github.io/zh-tw/work/) · [Email](mailto:niansia930202@gmail.com)
+<sub>研究視覺與多模態 AI 的安全性、穩健性與推理能力，<br>並把研究問題做成證據可以被檢查、也能被重現的工具。</sub>
 
 </div>
 
 ## 關於我
 
-我畢業於**元智大學（YZU）資訊工程學系**，目前就讀**國立陽明交通大學（NYCU）碩士班**，現正休學一年。我的研究主要關注 **AI 安全、電腦視覺與視覺語言模型**的交叉領域，尤其是可靠的多模態推理與模型評估。
+我畢業於**元智大學（YZU）資訊工程學系**，目前是**國立陽明交通大學（NYCU）資訊工程碩士生**，現正休學一年。研究主要落在 **AI 安全、電腦視覺與視覺語言模型**的交會處，特別關注可靠的多模態推理與模型評估。
 
-我把研究問題與實際需求轉化成可重現的工具。目前的專案包括 [KCrashLab](https://github.com/niansia/KCrashLab)，一個用於 Windows 驅動程式可靠性研究的確定性平台，以及 [Taiwan Exam](https://github.com/niansia/taiwan-exam)，一個用於產生並檢查原創學測模擬考的 Agent Skill。
+我喜歡把研究問題和實際需求做成可重現的工具：每一個結論，都應該附上能檢查它的證據。
+
+## 最近在做
+
+- ✍️ 準備投稿 **CVPR 2027**（VLM 相關）、**ICCV 2027**（DiT 相關）與 **COLM 2027**。
+- 🚀 2026 年 9 月 28 日正式公開 **[Taiwan Exam](https://github.com/niansia/taiwan-exam)**：讓 AI 出原創學測模擬考的 Agent Skill。
+- 🌙 完成 **[LumiGrid](https://github.com/niansia/LumiGrid)**（NTIRE 2025 低光影像增強），比出發點的課堂作法高 8.1 dB。
+- 🎓 陽明交大碩士班休學一年中。
 
 ## 研究興趣
 
-<table>
+<table width="100%">
 <tr>
 <td width="50%" valign="top">
 
@@ -51,36 +55,62 @@
 
 ## 精選專案
 
-<table>
+<table width="100%">
 <tr>
-<td width="50%" align="center" valign="top">
-<a href="https://github.com/niansia/taiwan-exam"><img src="assets/work/taiwan-exam-social-preview.png" width="100%" alt="Taiwan Exam：原創學測模擬考命題 Agent Skill"></a><br>
-<strong><a href="https://github.com/niansia/taiwan-exam">Taiwan Exam</a></strong><br>
-<sub>用於產生原創學測模擬考的 Agent Skill，目前支援七科。流程包含命題、答案與難度檢查、套用大考正式版面，並分開交付題目 PDF 與答案詳解 PDF；會考與分科測驗仍在製作中。</sub>
+<td width="50%" valign="top">
+<a href="https://github.com/niansia/taiwan-exam"><img src="assets/work/taiwan-exam-social-preview.png" width="100%" alt="Taiwan Exam"></a>
+
+**[Taiwan Exam](https://github.com/niansia/taiwan-exam)** &nbsp;<code>Agent Skill</code> <code>學測七科</code>
+
+<sub>讓 AI 原創一份學測模擬考：不看答案重新解題驗算、依官方答對率控制難度，再套用大考中心原始模板，交付題本與詳解兩份 PDF。</sub>
 </td>
-<td width="50%" align="center" valign="top">
-<a href="https://github.com/niansia/Merriv"><img src="assets/work/merriv-release-evidence-flow.svg" width="100%" alt="Merriv 模型發布證據架構"></a><br>
-<strong><a href="https://github.com/niansia/Merriv">Merriv</a></strong><br>
-<sub>仍處 pre-alpha 階段、面向可部署 AI 模型的廠商中立發布證據層。系統將確切模型產物、配對評估、統計政策、來源資訊與回歸起點綁定為可攜式 Model Change Report，供模型升版前獨立驗證。</sub>
+<td width="50%" valign="top">
+<a href="https://github.com/niansia/LumiGrid"><img src="assets/work/cards/lumigrid.jpg" width="100%" alt="LumiGrid"></a>
+
+**[LumiGrid](https://github.com/niansia/LumiGrid)** &nbsp;<code>電腦視覺</code> <code>NTIRE 2025</code>
+
+<sub>以亮度引導的 Zero-DCE 曲線雙邊網格加上 NAFNet 細修的低光影像增強。在 20 組保留的 NTIRE 2025 測試圖上達 24.57 dB / SSIM 0.840，只用一張筆電 GPU 訓練。</sub>
 </td>
 </tr>
 <tr>
-<td width="50%" align="center" valign="top">
-<a href="https://github.com/niansia/KCrashLab"><img src="assets/work/kcrashlab-evidence-flow.svg" width="100%" alt="KCrashLab 確定性當機研究證據流程"></a><br>
-<strong><a href="https://github.com/niansia/KCrashLab">KCrashLab</a></strong><br>
-<sub>已完成證據凍結的 Windows 驅動程式可靠性研究平台，涵蓋標準化案例、可續跑實驗、精確失效簽章、觸發條件最小化、3/3 模擬重播與語意證據驗證，並明確區分模擬證據與受控的 Windows lab 路徑。</sub>
+<td width="50%" valign="top">
+<a href="https://github.com/niansia/KCrashLab"><img src="assets/work/cards/kcrashlab.jpg" width="100%" alt="KCrashLab"></a>
+
+**[KCrashLab](https://github.com/niansia/KCrashLab)** &nbsp;<code>系統可靠性</code> <code>證據凍結</code>
+
+<sub>以模擬為優先的 Windows 驅動程式可靠性研究平台：標準化案例、可續跑實驗、精確失效簽章，並產生可獨立驗證的證據包。</sub>
 </td>
-<td width="50%" align="center" valign="top">
-<a href="https://github.com/niansia/ChromaRecover"><img src="assets/work/chromarecover-architecture.png" width="100%" alt="ChromaRecover 證據優先的電腦視覺架構"></a><br>
-<strong><a href="https://github.com/niansia/ChromaRecover">ChromaRecover</a></strong><br>
-<sub>實驗性 public alpha、以本機運算為核心的 Python 電腦視覺工具，用於還原由細微色彩差異承載的空間結構。系統會比較多種色彩證據假設、保留可稽核產物，並在證據不足時選擇不作判定。</sub>
+<td width="50%" valign="top">
+<a href="https://github.com/niansia/Merriv"><img src="assets/work/cards/merriv.jpg" width="100%" alt="Merriv"></a>
+
+**[Merriv](https://github.com/niansia/Merriv)** &nbsp;<code>模型發布</code> <code>Pre-alpha</code>
+
+<sub>面向可部署 AI 模型的廠商中立發布證據層，把確切模型產物、配對評估、統計政策與來源資訊綁定成可攜式 Model Change Report。</sub>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<a href="https://github.com/niansia/ChromaRecover"><img src="assets/work/cards/chromarecover.jpg" width="100%" alt="ChromaRecover"></a>
+
+**[ChromaRecover](https://github.com/niansia/ChromaRecover)** &nbsp;<code>電腦視覺</code> <code>Public alpha</code>
+
+<sub>以本機運算為核心的電腦視覺工具，還原由細微色彩差異承載的空間結構；比較多種假設、保留可稽核產物，證據不足時選擇不作判定。</sub>
+</td>
+<td width="50%" valign="top">
+<a href="https://github.com/niansia/NoveltyAudit"><img src="assets/work/cards/noveltyaudit.jpg" width="100%" alt="NoveltyAudit"></a>
+
+**[NoveltyAudit](https://github.com/niansia/NoveltyAudit)** &nbsp;<code>學術推理</code> <code>Alpha</code>
+
+<sub>以證據為優先的學術新穎性對抗審查 Agent Skill：檢索前凍結主張、找出 Minimal Prior Sets、套用歷史時間截點，並記錄搜尋未能建立的部分。</sub>
 </td>
 </tr>
 </table>
 
+<p align="right"><a href="https://niansia.github.io/zh-tw/work/">全部作品與互動展示 →</a></p>
+
 ## 使用工具
 
-`Python` · `PyTorch` · `OpenCV` · `scikit-learn` · `Jupyter` · `C# / .NET` · `React` · `TypeScript` · `Node.js` · `SQLite` · `Git`
+<p align="center"><img src="https://skillicons.dev/icons?i=python,pytorch,opencv,sklearn,cs,dotnet,react,ts,nodejs,sqlite,git&perline=11" alt="Python、PyTorch、OpenCV、scikit-learn、C#、.NET、React、TypeScript、Node.js、SQLite、Git"></p>
 
 <p align="center"><img src="assets/readme/research-lab.gif" width="960" alt="戴蝸牛帽的小貓在研究終端機前打字，旁邊的證據檢查與流程節點輪流亮起。"></p>
 
