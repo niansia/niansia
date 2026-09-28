@@ -81,11 +81,11 @@
 <sub>以模擬為優先的 Windows 驅動程式可靠性研究平台：標準化案例、可續跑實驗、精確失效簽章，並產生可獨立驗證的證據包。</sub>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/niansia/Merriv"><img src="assets/work/cards/merriv.jpg" width="100%" alt="Merriv"></a>
+<a href="https://github.com/niansia/adversarial-lab"><img src="assets/work/cards/adversarial-lab.jpg" width="100%" alt="Adversarial Lab"></a>
 
-**[Merriv](https://github.com/niansia/Merriv)** &nbsp;<code>模型發布</code> <code>Pre-alpha</code>
+**[Adversarial Lab](https://github.com/niansia/adversarial-lab)** &nbsp;<code>AI 安全</code> <code>線上試玩</code>
 
-<sub>面向可部署 AI 模型的廠商中立發布證據層，把確切模型產物、配對評估、統計政策與來源資訊綁定成可攜式 Model Change Report。</sub>
+<sub>在瀏覽器裡用你的 CPU 對數字分類器發動 FGSM 與 PGD 攻擊：一般模型在 ε = 0.3 時準確率掉到 0%，對抗訓練模型仍守住 85%；附決策地圖與梯度遮蔽檢查。</sub>
 </td>
 </tr>
 <tr>

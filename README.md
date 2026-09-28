@@ -81,11 +81,11 @@ I like to turn research questions and practical needs into reproducible tools: e
 <sub>A simulation-first platform for deterministic, reproducible Windows driver reliability experiments: canonical cases, resumable campaigns, exact failure signatures and independently verifiable evidence.</sub>
 </td>
 <td width="50%" valign="top">
-<a href="https://github.com/niansia/Merriv"><img src="assets/work/cards/merriv.jpg" width="100%" alt="Merriv"></a>
+<a href="https://github.com/niansia/adversarial-lab"><img src="assets/work/cards/adversarial-lab.jpg" width="100%" alt="Adversarial Lab"></a>
 
-**[Merriv](https://github.com/niansia/Merriv)** &nbsp;<code>Model release</code> <code>Pre-alpha</code>
+**[Adversarial Lab](https://github.com/niansia/adversarial-lab)** &nbsp;<code>AI security</code> <code>Live demo</code>
 
-<sub>A vendor-neutral release-evidence layer for deployable AI models that binds exact artifacts, paired evaluation, statistical policy and provenance into a portable Model Change Report.</sub>
+<sub>FGSM and PGD attacks on a digit classifier, running on your CPU in the browser, against an adversarially trained model that keeps 85% accuracy at ε = 0.3 where the standard one drops to 0%; with decision maps and gradient-masking checks.</sub>
 </td>
 </tr>
 <tr>
