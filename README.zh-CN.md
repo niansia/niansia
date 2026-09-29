@@ -7,7 +7,7 @@
 
 [繁體中文](https://github.com/niansia/niansia/blob/main/README.zh-TW.md) · **简体中文** · [English](https://github.com/niansia/niansia/blob/main/README.md)
 
-<a href="https://niansia.github.io/zh-cn/"><img src="https://img.shields.io/badge/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99-niansia.github.io-c0673a?style=for-the-badge&logo=githubpages&logoColor=white" alt="个人网站: niansia.github.io"></a> <a href="https://niansia.github.io/zh-cn/#research"><img src="https://img.shields.io/badge/%E7%A0%94%E7%A9%B6%E6%96%B9%E5%90%91-AI_%E5%AE%89%E5%85%A8_%C2%B7_CV_%C2%B7_VLM-8f6bb3?style=for-the-badge&logo=googlescholar&logoColor=white" alt="研究方向: AI 安全 · CV · VLM"></a> <a href="https://niansia.github.io/zh-cn/work/"><img src="https://img.shields.io/badge/%E4%BD%9C%E5%93%81%E9%9B%86-11_%E4%B8%AA%E9%A1%B9%E7%9B%AE-3f9b74?style=for-the-badge&logo=files&logoColor=white" alt="作品集: 11 个项目"></a> <a href="mailto:niansia930202@gmail.com"><img src="https://img.shields.io/badge/Email-niansia930202%40gmail.com-2a2230?style=for-the-badge&logo=gmail&logoColor=white" alt="Email: niansia930202@gmail.com"></a>
+<a href="https://niansia.com/zh-cn/"><img src="https://img.shields.io/badge/%E4%B8%AA%E4%BA%BA%E7%BD%91%E7%AB%99-niansia.com-c0673a?style=for-the-badge&logo=githubpages&logoColor=white" alt="个人网站: niansia.com"></a> <a href="https://niansia.com/zh-cn/#research"><img src="https://img.shields.io/badge/%E7%A0%94%E7%A9%B6%E6%96%B9%E5%90%91-AI_%E5%AE%89%E5%85%A8_%C2%B7_CV_%C2%B7_VLM-8f6bb3?style=for-the-badge&logo=googlescholar&logoColor=white" alt="研究方向: AI 安全 · CV · VLM"></a> <a href="https://niansia.com/zh-cn/work/"><img src="https://img.shields.io/badge/%E4%BD%9C%E5%93%81%E9%9B%86-11_%E4%B8%AA%E9%A1%B9%E7%9B%AE-3f9b74?style=for-the-badge&logo=files&logoColor=white" alt="作品集: 11 个项目"></a> <a href="mailto:niansia930202@gmail.com"><img src="https://img.shields.io/badge/Email-niansia930202%40gmail.com-2a2230?style=for-the-badge&logo=gmail&logoColor=white" alt="Email: niansia930202@gmail.com"></a>
 
 <sub>研究视觉与多模态 AI 的安全性、鲁棒性与推理能力，<br>并把研究问题做成证据可以被检查、也能被复现的工具。</sub>
 
@@ -106,7 +106,7 @@
 </tr>
 </table>
 
-<p align="right"><a href="https://niansia.github.io/zh-cn/work/">全部作品与互动展示 →</a></p>
+<p align="right"><a href="https://niansia.com/zh-cn/work/">全部作品与互动展示 →</a></p>
 
 ## 使用工具
 

@@ -13,7 +13,7 @@ ROOT = Path(__file__).resolve().parents[1]
 EMAIL = "niansia930202@gmail.com"
 REPO = "https://github.com/niansia/niansia/blob/main"
 FILES = {"en": "README.md", "zh-TW": "README.zh-TW.md", "zh-CN": "README.zh-CN.md"}
-SITE = {"en": "https://niansia.github.io/", "zh-TW": "https://niansia.github.io/zh-tw/", "zh-CN": "https://niansia.github.io/zh-cn/"}
+SITE = {"en": "https://niansia.com/", "zh-TW": "https://niansia.com/zh-tw/", "zh-CN": "https://niansia.com/zh-cn/"}
 
 
 def badge(label: str, message: str, color: str, logo: str) -> str:
@@ -53,7 +53,7 @@ T = {
     "en": {
         "alt": "Niansia: M.S. student in Computer Science at NYCU, working on AI security, computer vision and vision-language models",
         "langs": f"[繁體中文]({REPO}/README.zh-TW.md) · [简体中文]({REPO}/README.zh-CN.md) · **English**",
-        "badges": [("Website", "niansia.github.io", "c0673a", "githubpages", ""), ("Research", "AI Security · CV · VLM", "8f6bb3", "googlescholar", "#research"), ("Portfolio", "10 projects", "3f9b74", "files", "work/")],
+        "badges": [("Website", "niansia.com", "c0673a", "githubpages", ""), ("Research", "AI Security · CV · VLM", "8f6bb3", "googlescholar", "#research"), ("Portfolio", "10 projects", "3f9b74", "files", "work/")],
         "email": "Email",
         "tagline": "Researching the security, robustness and reasoning of visual and multimodal AI,<br>and turning research questions into tools whose evidence can be checked and reproduced.",
         "about_h": "About", "about": [
@@ -77,7 +77,7 @@ T = {
     "zh-TW": {
         "alt": "Niansia：陽明交大資工碩士生，研究 AI 安全、電腦視覺與視覺語言模型",
         "langs": f"**繁體中文** · [简体中文]({REPO}/README.zh-CN.md) · [English]({REPO}/README.md)",
-        "badges": [("個人網站", "niansia.github.io", "c0673a", "githubpages", ""), ("研究方向", "AI 安全 · CV · VLM", "8f6bb3", "googlescholar", "#research"), ("作品集", "10 個專案", "3f9b74", "files", "work/")],
+        "badges": [("個人網站", "niansia.com", "c0673a", "githubpages", ""), ("研究方向", "AI 安全 · CV · VLM", "8f6bb3", "googlescholar", "#research"), ("作品集", "10 個專案", "3f9b74", "files", "work/")],
         "email": "Email",
         "tagline": "研究視覺與多模態 AI 的安全性、穩健性與推理能力，<br>並把研究問題做成證據可以被檢查、也能被重現的工具。",
         "about_h": "關於我", "about": [
@@ -108,7 +108,7 @@ T = {
     "zh-CN": {
         "alt": "Niansia：阳明交大资工硕士生，研究 AI 安全、计算机视觉与视觉语言模型",
         "langs": f"[繁體中文]({REPO}/README.zh-TW.md) · **简体中文** · [English]({REPO}/README.md)",
-        "badges": [("个人网站", "niansia.github.io", "c0673a", "githubpages", ""), ("研究方向", "AI 安全 · CV · VLM", "8f6bb3", "googlescholar", "#research"), ("作品集", "10 个项目", "3f9b74", "files", "work/")],
+        "badges": [("个人网站", "niansia.com", "c0673a", "githubpages", ""), ("研究方向", "AI 安全 · CV · VLM", "8f6bb3", "googlescholar", "#research"), ("作品集", "10 个项目", "3f9b74", "files", "work/")],
         "email": "Email",
         "tagline": "研究视觉与多模态 AI 的安全性、鲁棒性与推理能力，<br>并把研究问题做成证据可以被检查、也能被复现的工具。",
         "about_h": "关于我", "about": [

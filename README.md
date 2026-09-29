@@ -7,7 +7,7 @@
 
 [繁體中文](https://github.com/niansia/niansia/blob/main/README.zh-TW.md) · [简体中文](https://github.com/niansia/niansia/blob/main/README.zh-CN.md) · **English**
 
-<a href="https://niansia.github.io/"><img src="https://img.shields.io/badge/Website-niansia.github.io-c0673a?style=for-the-badge&logo=githubpages&logoColor=white" alt="Website: niansia.github.io"></a> <a href="https://niansia.github.io/#research"><img src="https://img.shields.io/badge/Research-AI_Security_%C2%B7_CV_%C2%B7_VLM-8f6bb3?style=for-the-badge&logo=googlescholar&logoColor=white" alt="Research: AI Security · CV · VLM"></a> <a href="https://niansia.github.io/work/"><img src="https://img.shields.io/badge/Portfolio-11_projects-3f9b74?style=for-the-badge&logo=files&logoColor=white" alt="Portfolio: 11 projects"></a> <a href="mailto:niansia930202@gmail.com"><img src="https://img.shields.io/badge/Email-niansia930202%40gmail.com-2a2230?style=for-the-badge&logo=gmail&logoColor=white" alt="Email: niansia930202@gmail.com"></a>
+<a href="https://niansia.com/"><img src="https://img.shields.io/badge/Website-niansia.com-c0673a?style=for-the-badge&logo=githubpages&logoColor=white" alt="Website: niansia.com"></a> <a href="https://niansia.com/#research"><img src="https://img.shields.io/badge/Research-AI_Security_%C2%B7_CV_%C2%B7_VLM-8f6bb3?style=for-the-badge&logo=googlescholar&logoColor=white" alt="Research: AI Security · CV · VLM"></a> <a href="https://niansia.com/work/"><img src="https://img.shields.io/badge/Portfolio-11_projects-3f9b74?style=for-the-badge&logo=files&logoColor=white" alt="Portfolio: 11 projects"></a> <a href="mailto:niansia930202@gmail.com"><img src="https://img.shields.io/badge/Email-niansia930202%40gmail.com-2a2230?style=for-the-badge&logo=gmail&logoColor=white" alt="Email: niansia930202@gmail.com"></a>
 
 <sub>Researching the security, robustness and reasoning of visual and multimodal AI,<br>and turning research questions into tools whose evidence can be checked and reproduced.</sub>
 
@@ -106,7 +106,7 @@ I like to turn research questions and practical needs into reproducible tools: e
 </tr>
 </table>
 
-<p align="right"><a href="https://niansia.github.io/work/">All projects and interactive demos →</a></p>
+<p align="right"><a href="https://niansia.com/work/">All projects and interactive demos →</a></p>
 
 ## Tools
 
