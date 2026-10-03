@@ -112,7 +112,10 @@
 
 <p align="center"><img src="https://skillicons.dev/icons?i=python,pytorch,opencv,sklearn,cs,dotnet,react,ts,nodejs,sqlite,git&perline=11" alt="Python、PyTorch、OpenCV、scikit-learn、C#、.NET、React、TypeScript、Node.js、SQLite、Git"></p>
 
-<p align="center"><img src="assets/readme/research-lab.gif" width="960" alt="戴蜗牛帽的小猫在研究终端前打字，旁边的证据检查与流程节点轮流亮起。"></p>
+<p align="center"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/niansia/niansia/output/yuki-eats-contributions-dark.svg">
+  <img src="https://raw.githubusercontent.com/niansia/niansia/output/yuki-eats-contributions-light.svg" width="960" alt="Yuki 猫在我的 GitHub 贡献日历上小跑，把每个有贡献的日子吃掉；每天自动更新。">
+</picture></p>
 
 ## 联系与合作
 
@@ -130,4 +133,7 @@
 >
 > `(=^･ω･^=)`
 
-<p align="center"><img src="assets/readme/contact-signal.gif" width="960" alt="小信号沿电路线移动，最后送进信封，邀请交流研究。"></p>
+<p align="center"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/readme/contact-terminal-dark.svg">
+  <img src="assets/readme/contact-terminal-light.svg" width="960" alt="终端打出一段研究合作邀请并寄出信件，坐在窗口上的 Yuki 猫收到后开心冒出爱心。">
+</picture></p>

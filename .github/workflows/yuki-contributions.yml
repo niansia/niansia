@@ -1,0 +1,42 @@
+# Redraws the "Yuki eats my contributions" animation from the live contribution calendar every day and publishes the
+# light and dark SVGs as the only commit on the `output` branch, which the READMEs load from raw.githubusercontent.com.
+name: Yuki eats contributions
+
+on:
+  schedule:
+    - cron: "17 16 * * *"   # 00:17 in Taiwan
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - tools/render_yuki_svgs.py
+      - assets/readme/yuki-cat/**
+      - .github/workflows/yuki-contributions.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: yuki-contributions
+  cancel-in-progress: true
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
+      - name: Draw the SVGs
+        run: python3 tools/render_yuki_svgs.py contributions --out dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Publish to the output branch
+        working-directory: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          git init -q -b output
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -q -m "Yuki eats the contribution calendar ($(date -u +%F))"
+          git push -q -f "https://x-access-token:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" output

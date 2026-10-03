@@ -12,6 +12,8 @@ from urllib.parse import quote
 ROOT = Path(__file__).resolve().parents[1]
 EMAIL = "niansia930202@gmail.com"
 REPO = "https://github.com/niansia/niansia/blob/main"
+# Redrawn daily by .github/workflows/yuki-contributions.yml (tools/render_yuki_svgs.py) on the `output` branch.
+CONTRIB = "https://raw.githubusercontent.com/niansia/niansia/output/yuki-eats-contributions"
 FILES = {"en": "README.md", "zh-TW": "README.zh-TW.md", "zh-CN": "README.zh-CN.md"}
 SITE = {"en": "https://niansia.com/", "zh-TW": "https://niansia.com/zh-tw/", "zh-CN": "https://niansia.com/zh-cn/"}
 
@@ -35,10 +37,10 @@ PROJECTS = [
         "en": (["Systems reliability", "Evidence freeze"], "A simulation-first platform for deterministic, reproducible Windows driver reliability experiments: canonical cases, resumable campaigns, exact failure signatures and independently verifiable evidence."),
         "zh-TW": (["系統可靠性", "證據凍結"], "以模擬為優先的 Windows 驅動程式可靠性研究平台：標準化案例、可續跑實驗、精確失效簽章，並產生可獨立驗證的證據包。"),
         "zh-CN": (["系统可靠性", "证据冻结"], "以模拟为优先的 Windows 驱动程序可靠性研究平台：规范化案例、可续跑实验、精确失效签名，并生成可独立验证的证据包。")}),
-    ("Merriv", "https://github.com/niansia/Merriv", "assets/work/cards/merriv.jpg", {
-        "en": (["Model release", "Pre-alpha"], "A vendor-neutral release-evidence layer for deployable AI models that binds exact artifacts, paired evaluation, statistical policy and provenance into a portable Model Change Report."),
-        "zh-TW": (["模型發布", "Pre-alpha"], "面向可部署 AI 模型的廠商中立發布證據層，把確切模型產物、配對評估、統計政策與來源資訊綁定成可攜式 Model Change Report。"),
-        "zh-CN": (["模型发布", "Pre-alpha"], "面向可部署 AI 模型的厂商中立发布证据层，把确切模型产物、配对评估、统计策略与来源信息绑定成可移植的 Model Change Report。")}),
+    ("Adversarial Lab", "https://github.com/niansia/adversarial-lab", "assets/work/cards/adversarial-lab.jpg", {
+        "en": (["AI security", "Live demo"], "FGSM and PGD attacks on a digit classifier, running on your CPU in the browser, against an adversarially trained model that keeps 85% accuracy at ε = 0.3 where the standard one drops to 0%; with decision maps and gradient-masking checks."),
+        "zh-TW": (["AI 安全", "線上試玩"], "在瀏覽器裡用你的 CPU 對數字分類器發動 FGSM 與 PGD 攻擊：一般模型在 ε = 0.3 時準確率掉到 0%，對抗訓練模型仍守住 85%；附決策地圖與梯度遮蔽檢查。"),
+        "zh-CN": (["AI 安全", "在线试玩"], "在浏览器里用你的 CPU 对数字分类器发动 FGSM 与 PGD 攻击：普通模型在 ε = 0.3 时准确率降到 0%，对抗训练模型仍守住 85%；附决策地图与梯度遮蔽检查。")}),
     ("ChromaRecover", "https://github.com/niansia/ChromaRecover", "assets/work/cards/chromarecover.jpg", {
         "en": (["Computer vision", "Public alpha"], "A local-first toolkit that recovers spatial structure carried by subtle colour differences, tests competing hypotheses, keeps auditable artifacts and abstains when evidence is weak."),
         "zh-TW": (["電腦視覺", "Public alpha"], "以本機運算為核心的電腦視覺工具，還原由細微色彩差異承載的空間結構；比較多種假設、保留可稽核產物，證據不足時選擇不作判定。"),
@@ -53,7 +55,7 @@ T = {
     "en": {
         "alt": "Niansia: M.S. student in Computer Science at NYCU, working on AI security, computer vision and vision-language models",
         "langs": f"[繁體中文]({REPO}/README.zh-TW.md) · [简体中文]({REPO}/README.zh-CN.md) · **English**",
-        "badges": [("Website", "niansia.com", "c0673a", "githubpages", ""), ("Research", "AI Security · CV · VLM", "8f6bb3", "googlescholar", "#research"), ("Portfolio", "10 projects", "3f9b74", "files", "work/")],
+        "badges": [("Website", "niansia.com", "c0673a", "githubpages", ""), ("Research", "AI Security · CV · VLM", "8f6bb3", "googlescholar", "#research"), ("Portfolio", "11 projects", "3f9b74", "files", "work/")],
         "email": "Email",
         "tagline": "Researching the security, robustness and reasoning of visual and multimodal AI,<br>and turning research questions into tools whose evidence can be checked and reproduced.",
         "about_h": "About", "about": [
@@ -69,15 +71,15 @@ T = {
                 ("👁️ Vision & multimodal intelligence", ["Computer vision and vision-language models", "Multimodal reasoning and memory", "Evaluation under real-world uncertainty", "Reproducible failure analysis"])],
         "proj_h": "Featured projects", "more": "All projects and interactive demos →",
         "tools_h": "Tools", "tools_alt": "Python, PyTorch, OpenCV, scikit-learn, C#, .NET, React, TypeScript, Node.js, SQLite, Git",
-        "lab_alt": "A snail-hooded cat types at a research terminal while evidence checks and a small pipeline light up.",
+        "lab_alt": "Yuki the cat trots over my GitHub contribution calendar and eats every day that has contributions; redrawn every day.",
         "contact_h": "Contact",
         "contact": f"I welcome thoughtful conversations about AI security, CV / VLM reasoning, trustworthy machine learning, reproducibility and research tooling, whether that is reading papers together, reproducing a result, designing a benchmark or turning a rough idea into a prototype that can be checked.\n\n📮 **[{EMAIL}](mailto:{EMAIL})**",
-        "signal_alt": "A small signal travels along a circuit path into an envelope, inviting research conversations.",
+        "signal_alt": "A terminal types a note about research collaboration and mails it; Yuki the cat sits on the window and cheers when it arrives.",
     },
     "zh-TW": {
         "alt": "Niansia：陽明交大資工碩士生，研究 AI 安全、電腦視覺與視覺語言模型",
         "langs": f"**繁體中文** · [简体中文]({REPO}/README.zh-CN.md) · [English]({REPO}/README.md)",
-        "badges": [("個人網站", "niansia.com", "c0673a", "githubpages", ""), ("研究方向", "AI 安全 · CV · VLM", "8f6bb3", "googlescholar", "#research"), ("作品集", "10 個專案", "3f9b74", "files", "work/")],
+        "badges": [("個人網站", "niansia.com", "c0673a", "githubpages", ""), ("研究方向", "AI 安全 · CV · VLM", "8f6bb3", "googlescholar", "#research"), ("作品集", "11 個專案", "3f9b74", "files", "work/")],
         "email": "Email",
         "tagline": "研究視覺與多模態 AI 的安全性、穩健性與推理能力，<br>並把研究問題做成證據可以被檢查、也能被重現的工具。",
         "about_h": "關於我", "about": [
@@ -93,7 +95,7 @@ T = {
                 ("👁️ 視覺與多模態智慧", ["電腦視覺與視覺語言模型", "多模態推理與記憶", "真實世界不確定性下的評估", "可重現的失敗案例分析"])],
         "proj_h": "精選專案", "more": "全部作品與互動展示 →",
         "tools_h": "使用工具", "tools_alt": "Python、PyTorch、OpenCV、scikit-learn、C#、.NET、React、TypeScript、Node.js、SQLite、Git",
-        "lab_alt": "戴蝸牛帽的小貓在研究終端機前打字，旁邊的證據檢查與流程節點輪流亮起。",
+        "lab_alt": "Yuki 貓在我的 GitHub 貢獻月曆上小跑，把每個有貢獻的日子吃掉；每天自動更新。",
         "contact_h": "聯絡與合作",
         "contact": "\n".join([
             "> **想一起研究嗎？**", ">",
@@ -103,12 +105,12 @@ T = {
             f"> 聯絡信箱是 **[{EMAIL}](mailto:{EMAIL})**，我可能無法每次都立刻回覆，但有看到就會認真閱讀喵", ">",
             "> 也期待遇見願意一起把問題想深、把實驗做紮實，並把研究過程整理得更可重現的人喵", ">",
             "> `(=^･ω･^=)`"]),
-        "signal_alt": "小訊號沿著電路線移動，最後送進信封，邀請交流研究。",
+        "signal_alt": "終端機打出一段研究合作邀請並寄出信件，坐在視窗上的 Yuki 貓收到後開心冒出愛心。",
     },
     "zh-CN": {
         "alt": "Niansia：阳明交大资工硕士生，研究 AI 安全、计算机视觉与视觉语言模型",
         "langs": f"[繁體中文]({REPO}/README.zh-TW.md) · **简体中文** · [English]({REPO}/README.md)",
-        "badges": [("个人网站", "niansia.com", "c0673a", "githubpages", ""), ("研究方向", "AI 安全 · CV · VLM", "8f6bb3", "googlescholar", "#research"), ("作品集", "10 个项目", "3f9b74", "files", "work/")],
+        "badges": [("个人网站", "niansia.com", "c0673a", "githubpages", ""), ("研究方向", "AI 安全 · CV · VLM", "8f6bb3", "googlescholar", "#research"), ("作品集", "11 个项目", "3f9b74", "files", "work/")],
         "email": "Email",
         "tagline": "研究视觉与多模态 AI 的安全性、鲁棒性与推理能力，<br>并把研究问题做成证据可以被检查、也能被复现的工具。",
         "about_h": "关于我", "about": [
@@ -124,7 +126,7 @@ T = {
                 ("👁️ 视觉与多模态智能", ["计算机视觉与视觉语言模型", "多模态推理与记忆", "真实世界不确定性下的评估", "可复现的失败案例分析"])],
         "proj_h": "精选项目", "more": "全部作品与互动展示 →",
         "tools_h": "使用工具", "tools_alt": "Python、PyTorch、OpenCV、scikit-learn、C#、.NET、React、TypeScript、Node.js、SQLite、Git",
-        "lab_alt": "戴蜗牛帽的小猫在研究终端前打字，旁边的证据检查与流程节点轮流亮起。",
+        "lab_alt": "Yuki 猫在我的 GitHub 贡献日历上小跑，把每个有贡献的日子吃掉；每天自动更新。",
         "contact_h": "联系与合作",
         "contact": "\n".join([
             "> **想一起研究吗？**", ">",
@@ -134,7 +136,7 @@ T = {
             f"> 联系邮箱是 **[{EMAIL}](mailto:{EMAIL})**，我可能无法每次都立刻回复，但看到后一定会认真阅读喵", ">",
             "> 也期待认识愿意一起把问题想深、把实验做扎实，并把研究过程整理得更可复现的人喵", ">",
             "> `(=^･ω･^=)`"]),
-        "signal_alt": "小信号沿电路线移动，最后送进信封，邀请交流研究。",
+        "signal_alt": "终端打出一段研究合作邀请并寄出信件，坐在窗口上的 Yuki 猫收到后开心冒出爱心。",
     },
 }
 
@@ -194,13 +196,19 @@ def build(lang: str) -> str:
 
 <p align="center"><img src="https://skillicons.dev/icons?i=python,pytorch,opencv,sklearn,cs,dotnet,react,ts,nodejs,sqlite,git&perline=11" alt="{c["tools_alt"]}"></p>
 
-<p align="center"><img src="assets/readme/research-lab.gif" width="960" alt="{c["lab_alt"]}"></p>
+<p align="center"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="{CONTRIB}-dark.svg">
+  <img src="{CONTRIB}-light.svg" width="960" alt="{c["lab_alt"]}">
+</picture></p>
 
 ## {c["contact_h"]}
 
 {c["contact"]}
 
-<p align="center"><img src="assets/readme/contact-signal.gif" width="960" alt="{c["signal_alt"]}"></p>
+<p align="center"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/readme/contact-terminal-dark.svg">
+  <img src="assets/readme/contact-terminal-light.svg" width="960" alt="{c["signal_alt"]}">
+</picture></p>
 """
 
 

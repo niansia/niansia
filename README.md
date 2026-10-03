@@ -112,7 +112,10 @@ I like to turn research questions and practical needs into reproducible tools: e
 
 <p align="center"><img src="https://skillicons.dev/icons?i=python,pytorch,opencv,sklearn,cs,dotnet,react,ts,nodejs,sqlite,git&perline=11" alt="Python, PyTorch, OpenCV, scikit-learn, C#, .NET, React, TypeScript, Node.js, SQLite, Git"></p>
 
-<p align="center"><img src="assets/readme/research-lab.gif" width="960" alt="A snail-hooded cat types at a research terminal while evidence checks and a small pipeline light up."></p>
+<p align="center"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/niansia/niansia/output/yuki-eats-contributions-dark.svg">
+  <img src="https://raw.githubusercontent.com/niansia/niansia/output/yuki-eats-contributions-light.svg" width="960" alt="Yuki the cat trots over my GitHub contribution calendar and eats every day that has contributions; redrawn every day.">
+</picture></p>
 
 ## Contact
 
@@ -120,4 +123,7 @@ I welcome thoughtful conversations about AI security, CV / VLM reasoning, trustw
 
 📮 **[niansia930202@gmail.com](mailto:niansia930202@gmail.com)**
 
-<p align="center"><img src="assets/readme/contact-signal.gif" width="960" alt="A small signal travels along a circuit path into an envelope, inviting research conversations."></p>
+<p align="center"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/readme/contact-terminal-dark.svg">
+  <img src="assets/readme/contact-terminal-light.svg" width="960" alt="A terminal types a note about research collaboration and mails it; Yuki the cat sits on the window and cheers when it arrives.">
+</picture></p>
