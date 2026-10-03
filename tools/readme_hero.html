@@ -1,0 +1,85 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- Profile hero, drawn like the home screen of niansia.com: the desk, the terminal window, Yuki standing by it.
+     Rendered by tools/render_readme_assets.py as ?lang=en|zh-TW|zh-CN&theme=light|dark (transparent corners). -->
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Huninn&family=Quicksand:wght@500;600;700&family=M+PLUS+1+Code:wght@400;500;600&family=Noto+Sans+SC:wght@500;700;800&display=swap">
+<style>
+:root{--desk:#edf0f7;--surface:#fdfdff;--rail:#f5f6fb;--ink:#262938;--muted:#626779;--accent:#5854b8;--accent2:#c9578b;--wash:#edecfb;--line:#dce0ec;--green:#387b68;
+  --glow1:#c9c3ff;--glow2:#ffc9de;--dot:#5854b81a;--shadow:0 24px 50px -28px #3b3a7a59;
+  --sans:'Quicksand','Huninn',sans-serif;--mono:'M PLUS 1 Code','Huninn',monospace;}
+.dark{--desk:#101117;--surface:#191b24;--rail:#151720;--ink:#e9eaf4;--muted:#a4a9bd;--accent:#b3adff;--accent2:#ff9cc6;--wash:#2c2946;--line:#343746;--green:#8bd4b4;
+  --glow1:#3d3486;--glow2:#5a2a4c;--dot:#ffffff12;--shadow:0 24px 50px -24px #000c;}
+.zh-CN{--sans:'Quicksand','Noto Sans SC',sans-serif;--mono:'M PLUS 1 Code','Noto Sans SC',monospace;}
+*{box-sizing:border-box;margin:0;}
+html,body{width:1280px;height:430px;overflow:hidden;background:transparent;}
+body{font-family:var(--sans);color:var(--ink);}
+.desk{position:absolute;inset:0;border-radius:28px;overflow:hidden;background:
+  radial-gradient(560px 360px at 88% 18%,var(--glow1),transparent 70%),radial-gradient(520px 320px at 64% 104%,var(--glow2),transparent 70%),var(--desk);}
+.desk:before{content:'';position:absolute;inset:0;background-image:radial-gradient(var(--dot) 1.2px,transparent 1.5px);background-size:22px 22px;}
+.bar{position:absolute;left:40px;right:40px;top:22px;display:flex;align-items:center;gap:14px;font:600 17px var(--mono);}
+.bar .brand{color:var(--accent);}.bar .brand b{color:var(--ink);}.bar .motto{font:500 14px var(--sans);color:var(--muted);}
+.win{position:absolute;left:40px;top:70px;width:850px;height:330px;border-radius:22px;background:var(--surface);border:1px solid var(--line);box-shadow:var(--shadow);overflow:hidden;}
+.wbar{height:46px;display:flex;align-items:center;gap:16px;padding:0 20px;border-bottom:1px solid var(--line);background:var(--rail);font:500 14px var(--mono);color:var(--muted);}
+.dots{display:flex;gap:8px;}.dots i{width:13px;height:13px;border-radius:50%;background:#ed998f;border:1px solid #d8877e;}
+.dots i:nth-child(2){background:#ecd09c;border-color:#d9bc88;}.dots i:nth-child(3){background:#a7ccba;border-color:#90b5a3;}
+.wbar .path{margin-left:auto;padding:4px 12px;border-radius:99px;background:var(--wash);color:var(--accent);}
+.body{padding:26px 34px;}
+.hello{font:600 19px var(--mono);color:var(--accent2);}
+h1{margin-top:8px;font:700 62px/1.05 var(--sans);letter-spacing:-.01em;}
+h1 span{background:linear-gradient(95deg,var(--accent),var(--accent2));-webkit-background-clip:text;background-clip:text;color:transparent;}
+.tag{margin-top:12px;font:600 19px var(--sans);color:var(--muted);font-synthesis:none;}
+.chips{display:flex;gap:10px;margin-top:20px;flex-wrap:wrap;font-synthesis:none;}
+.chip{padding:7px 15px;border-radius:99px;background:var(--wash);color:var(--accent);font:700 15px var(--sans);}
+.chip.mono{background:transparent;border:1px solid var(--line);color:var(--muted);font:500 14px var(--mono);}
+.now{font-synthesis:none;display:inline-flex;align-items:center;gap:9px;margin-top:18px;padding:7px 15px;border-radius:99px;border:1.5px dashed var(--accent2);color:var(--accent2);font:600 14.5px var(--mono);}
+.now b{font-weight:600;color:var(--ink);}
+.prompt{position:absolute;left:34px;bottom:20px;font:500 14px var(--mono);color:var(--muted);}
+.prompt b{color:var(--accent);font-weight:500;}.prompt i{display:inline-block;width:9px;height:17px;margin-left:4px;vertical-align:-3px;background:var(--accent);}
+.yuki{position:absolute;left:968px;top:30px;height:396px;filter:drop-shadow(0 18px 18px #0003);}
+.floor{position:absolute;left:930px;top:398px;width:240px;height:18px;border-radius:50%;background:radial-gradient(closest-side,#0000002e,transparent);}
+.float{position:absolute;padding:8px 13px;border-radius:12px;background:var(--surface);border:1px solid var(--line);box-shadow:0 12px 24px -16px #0006;font:500 14px var(--mono);white-space:nowrap;}
+.float b{color:var(--green);font-weight:600;}.float em{font-style:normal;color:var(--accent2);}
+</style>
+</head>
+<body>
+<div class="desk">
+  <div class="bar"><span class="brand">&gt;_ <b>niansia</b>.terminal</span><span class="motto" id="motto"></span></div>
+  <div class="win">
+    <div class="wbar"><span class="dots"><i></i><i></i><i></i></span><span>niansia@home : ~</span><span class="path">~/ start.sh</span></div>
+    <div class="body">
+      <div class="hello">Hello, world.</div>
+      <h1 id="name"></h1>
+      <div class="tag" id="tag"></div>
+      <div class="chips" id="chips"></div>
+      <div class="now" id="now"></div>
+    </div>
+  </div>
+  <div class="floor"></div>
+  <img class="yuki" src="../assets/readme/yuki-researcher.png" alt="">
+  <div class="float" style="left:902px;top:108px"><b>✓</b> eval --held-out</div>
+  <div class="float" style="left:1128px;top:296px"><em>VLM</em> · reasoning</div>
+  <div class="float" style="left:880px;top:336px"><b>●</b> reproducible</div>
+</div>
+<script>
+const q = new URLSearchParams(location.search), L = q.get('lang') || 'en', dark = q.get('theme') === 'dark';
+document.documentElement.className = `${dark ? 'dark' : ''} ${L}`;
+document.documentElement.lang = L === 'en' ? 'en' : L === 'zh-CN' ? 'zh-Hans' : 'zh-Hant';
+const T = {
+  en: {motto: 'A little terminal, a curious mind.', name: 'I’m <span>Niansia</span>.', tag: 'Code, research, and a little cat magic by the keyboard.',
+    chips: ['AI security', 'Computer vision', 'Vision-language models'], status: 'M.S. · NYCU · on a one-year leave', now: '✍ now → <b>preparing CVPR · ICCV · COLM 2027</b>'},
+  'zh-TW': {motto: '一個小終端，裝著好奇心。', name: '我是 <span>Niansia</span>。', tag: '寫程式、做研究，還有鍵盤旁的一點貓咪魔法。',
+    chips: ['AI 安全', '電腦視覺', '視覺語言模型'], status: '陽明交大資工碩士生 · 休學一年中', now: '✍ now → <b>準備投稿 CVPR · ICCV · COLM 2027</b>'},
+  'zh-CN': {motto: '一个小终端，装着好奇心。', name: '我是 <span>Niansia</span>。', tag: '写代码、做研究，还有键盘旁的一点猫咪魔法。',
+    chips: ['AI 安全', '计算机视觉', '视觉语言模型'], status: '阳明交大资工硕士生 · 休学一年中', now: '✍ now → <b>准备投稿 CVPR · ICCV · COLM 2027</b>'},
+}[L];
+document.getElementById('motto').textContent = T.motto;
+document.getElementById('name').innerHTML = T.name;
+document.getElementById('tag').textContent = T.tag;
+document.getElementById('chips').innerHTML = T.chips.map(c => `<span class="chip">${c}</span>`).join('') + `<span class="chip mono">${T.status}</span>`;
+document.getElementById('now').innerHTML = T.now;
+</script>
+</body>
+</html>

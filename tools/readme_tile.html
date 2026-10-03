@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<!-- One featured-project tile for the profile README: a niansia.com window around the project's picture, its name and a
+     two-line pitch. tools/render_readme_assets.py loads it with ?theme=light|dark&lang=… and calls render({...}). -->
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Huninn&family=Quicksand:wght@500;600;700&family=M+PLUS+1+Code:wght@400;500;600&family=Noto+Sans+SC:wght@500;700&display=swap">
+<style>
+:root{--surface:#fdfdff;--rail:#f5f6fb;--ink:#262938;--muted:#626779;--accent:#5854b8;--accent2:#c9578b;--wash:#edecfb;--line:#dce0ec;
+  --sans:'Quicksand','Huninn',sans-serif;--mono:'M PLUS 1 Code','Huninn',monospace;--shadow:0 16px 30px -22px #3b3a7a66;}
+.dark{--surface:#191b24;--rail:#151720;--ink:#e9eaf4;--muted:#a4a9bd;--accent:#b3adff;--accent2:#ff9cc6;--wash:#2c2946;--line:#343746;--shadow:0 16px 30px -18px #000d;}
+.zh-CN{--sans:'Quicksand','Noto Sans SC',sans-serif;--mono:'M PLUS 1 Code','Noto Sans SC',monospace;}
+*{box-sizing:border-box;margin:0;}
+html,body{width:540px;height:452px;overflow:hidden;background:transparent;}
+body{font-family:var(--sans);color:var(--ink);font-synthesis:none;}
+.card{position:absolute;inset:6px 6px 14px;border-radius:22px;background:var(--surface);border:1.5px solid var(--line);box-shadow:var(--shadow);overflow:hidden;}
+.bar{height:44px;display:flex;align-items:center;gap:12px;padding:0 18px;background:var(--rail);border-bottom:1.5px solid var(--line);font:500 15px var(--mono);color:var(--muted);}
+.dots{display:flex;gap:7px;}.dots i{width:12px;height:12px;border-radius:50%;background:#ed998f;border:1px solid #d8877e;}
+.dots i:nth-child(2){background:#ecd09c;border-color:#d9bc88;}.dots i:nth-child(3){background:#a7ccba;border-color:#90b5a3;}
+.status{margin-left:auto;padding:3px 11px;border-radius:99px;background:var(--wash);color:var(--accent);font:600 14px var(--mono);}
+.shot{margin:16px 18px 0;height:220px;border-radius:14px;overflow:hidden;border:1px solid var(--line);background:var(--rail);}
+.shot img{width:100%;height:100%;object-fit:cover;display:block;}
+.name{margin:14px 22px 0;display:flex;align-items:baseline;gap:10px;font:700 33px/1.1 var(--sans);}
+.name small{font:600 15px var(--mono);color:var(--accent2);}
+.pitch{margin:8px 22px 0;font:500 21px/1.42 var(--sans);color:var(--muted);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;}
+.zh-TW .pitch,.zh-CN .pitch{font-size:20px;line-height:1.5;}
+</style>
+</head>
+<body>
+<div class="card">
+  <div class="bar"><span class="dots"><i></i><i></i><i></i></span><span id="path"></span><span class="status" id="status"></span></div>
+  <div class="shot"><img id="img" alt=""></div>
+  <div class="name"><span id="name"></span><small id="kind"></small></div>
+  <div class="pitch" id="pitch"></div>
+</div>
+<script>
+const q = new URLSearchParams(location.search), L = q.get('lang') || 'en';
+document.documentElement.className = `${q.get('theme') === 'dark' ? 'dark' : ''} ${L}`;
+document.documentElement.lang = L === 'en' ? 'en' : L === 'zh-CN' ? 'zh-Hans' : 'zh-Hant';
+window.render = d => {
+  document.getElementById('path').textContent = `~/projects/${d.id}`;
+  document.getElementById('status').textContent = d.status;
+  document.getElementById('name').textContent = d.name;
+  document.getElementById('kind').textContent = d.kind;
+  document.getElementById('pitch').textContent = d.pitch;
+  const img = document.getElementById('img');
+  img.style.objectPosition = d.focus || '50% 50%';
+  img.src = d.src;
+  return img.decode().then(() => document.fonts.ready).then(() => true);
+};
+</script>
+</body>
+</html>
