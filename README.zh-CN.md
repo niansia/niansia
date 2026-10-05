@@ -18,6 +18,7 @@
 ## 最近在做
 
 - ✍️ 准备投稿 CVPR、ICCV 与 COLM 2027。
+- ⏪ 2026 年 10 月 5 日公开 **[Zerostel](https://github.com/zerostel/zerostel)**：AI 写代码工具的行车记录仪和时光机。
 - 🚀 2026 年 9 月 28 日公开 **[Taiwan Exam](https://github.com/niansia/taiwan-exam)**：让 AI 出原创学测模拟考的 Agent Skill。
 - 🌙 完成 **[LumiGrid](https://github.com/niansia/LumiGrid)**（NTIRE 2025 低光图像增强），比出发点的课堂做法高 8.1 dB。
 - 🐾 经营 **[niansia.com](https://niansia.com/zh-cn/)**：终端风格的作品集，猫耳助理 Yuki 用浏览器里的模型回答问题。
@@ -25,16 +26,16 @@
 ## 精选项目
 
 <p align="center">
+<a href="https://github.com/zerostel/zerostel"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/tiles/zerostel-zh-CN-dark.webp"><img src="assets/readme/tiles/zerostel-zh-CN-light.webp" width="32%" alt="Zerostel: AI 写代码工具的行车记录仪：每一步都在时间轴上，改坏了一个命令就恢复。"></picture></a>
 <a href="https://github.com/niansia/taiwan-exam"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/tiles/taiwan-exam-zh-CN-dark.webp"><img src="assets/readme/tiles/taiwan-exam-zh-CN-light.webp" width="32%" alt="Taiwan Exam: 让 AI 原创学测模拟考，不看答案重新解题验算，交付题本与详解两份 PDF。"></picture></a>
 <a href="https://github.com/niansia/LumiGrid"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/tiles/lumigrid-zh-CN-dark.webp"><img src="assets/readme/tiles/lumigrid-zh-CN-light.webp" width="32%" alt="LumiGrid: 亮度引导曲线网格加 NAFNet 的低光增强，在 NTIRE 2025 保留测试图达 24.57 dB。"></picture></a>
-<a href="https://github.com/niansia/adversarial-lab"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/tiles/adversarial-lab-zh-CN-dark.webp"><img src="assets/readme/tiles/adversarial-lab-zh-CN-light.webp" width="32%" alt="Adversarial Lab: 在浏览器里发动 FGSM 与 PGD 攻击：普通模型降到 0%，对抗训练仍守住 85%。"></picture></a>
 <br>
+<a href="https://github.com/niansia/adversarial-lab"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/tiles/adversarial-lab-zh-CN-dark.webp"><img src="assets/readme/tiles/adversarial-lab-zh-CN-light.webp" width="32%" alt="Adversarial Lab: 在浏览器里发动 FGSM 与 PGD 攻击：普通模型降到 0%，对抗训练仍守住 85%。"></picture></a>
 <a href="https://github.com/niansia/KCrashLab"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/tiles/kcrashlab-zh-CN-dark.webp"><img src="assets/readme/tiles/kcrashlab-zh-CN-light.webp" width="32%" alt="KCrashLab: 模拟优先的 Windows 驱动程序可靠性实验，最后产出可独立验证的证据包。"></picture></a>
 <a href="https://github.com/niansia/ChromaRecover"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/tiles/chromarecover-zh-CN-dark.webp"><img src="assets/readme/tiles/chromarecover-zh-CN-light.webp" width="32%" alt="ChromaRecover: 本机运算还原细微色差承载的空间结构，证据不足时选择不作判定。"></picture></a>
-<a href="https://github.com/niansia/NoveltyAudit"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/tiles/noveltyaudit-zh-CN-dark.webp"><img src="assets/readme/tiles/noveltyaudit-zh-CN-light.webp" width="32%" alt="NoveltyAudit: 以证据为先的新颖性对抗审查：先冻结主张，再找最小先前技术集合。"></picture></a>
 </p>
 
-<p align="right"><a href="https://niansia.com/zh-cn/work/">全部 11 个作品与互动展示 →</a></p>
+<p align="right"><a href="https://niansia.com/zh-cn/work/">全部 12 个作品与互动展示 →</a></p>
 
 ## 工具与足迹
 

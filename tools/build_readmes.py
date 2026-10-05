@@ -18,10 +18,15 @@ CONTRIB = "https://raw.githubusercontent.com/niansia/niansia/output/yuki-eats-co
 FILES = {"en": "README.md", "zh-TW": "README.zh-TW.md", "zh-CN": "README.zh-CN.md"}
 SITE = {"en": "https://niansia.com/", "zh-TW": "https://niansia.com/zh-tw/", "zh-CN": "https://niansia.com/zh-cn/"}
 BLOG = {"en": "https://niansia.com/blog/en/", "zh-TW": "https://niansia.com/blog/zh-tw/", "zh-CN": "https://niansia.com/blog/zh-cn/"}
-TOTAL_PROJECTS = 11
+TOTAL_PROJECTS = 12
 
 # Featured projects, three to a row. src: the picture in the tile's window (focus: CSS object-position of the crop).
 PROJECTS = [
+    {"id": "zerostel", "name": "Zerostel", "url": "https://github.com/zerostel/zerostel", "src": "assets/work/zerostel-demo.png",
+     "status": "v0.1.1", "kind": "AI agents", "pitch": {
+         "en": "Flight recorder for AI coding agents: every step logged, every change one undo away.",
+         "zh-TW": "AI 寫程式工具的行車紀錄器：每一步都在時間軸上，改壞了一個指令就復原。",
+         "zh-CN": "AI 写代码工具的行车记录仪：每一步都在时间轴上，改坏了一个命令就恢复。"}},
     {"id": "taiwan-exam", "name": "Taiwan Exam", "url": "https://github.com/niansia/taiwan-exam", "src": "assets/work/taiwan-exam-social-preview.png",
      "status": "released", "kind": "agent skill", "pitch": {
          "en": "An original AI-written GSAT mock exam, re-solved and typeset as two PDFs.",
@@ -47,11 +52,6 @@ PROJECTS = [
          "en": "Local-first recovery of structure carried by subtle colour differences; abstains when unsure.",
          "zh-TW": "本機運算還原細微色差承載的空間結構，證據不足時選擇不作判定。",
          "zh-CN": "本机运算还原细微色差承载的空间结构，证据不足时选择不作判定。"}},
-    {"id": "noveltyaudit", "name": "NoveltyAudit", "url": "https://github.com/niansia/NoveltyAudit", "src": "assets/work/cards/noveltyaudit.jpg",
-     "status": "alpha", "kind": "agent skill", "pitch": {
-         "en": "Evidence-first novelty review: freeze the claim, find minimal prior sets, log what search missed.",
-         "zh-TW": "以證據為先的新穎性對抗審查：先凍結主張，再找最小先前技術集合。",
-         "zh-CN": "以证据为先的新颖性对抗审查：先冻结主张，再找最小先前技术集合。"}},
 ]
 
 T = {
@@ -65,6 +65,7 @@ T = {
                 ("👁️", "Vision & multimodal intelligence", ["computer vision and VLMs", "multimodal reasoning and memory", "evaluation under real-world uncertainty", "reproducible failure analysis"])],
         "now_h": "Now",
         "now": [("✍️", "Preparing submissions to CVPR, ICCV and COLM 2027."),
+                ("⏪", "**[Zerostel](https://github.com/zerostel/zerostel)**, a flight recorder and time machine for AI coding agents, public since 5 October 2026."),
                 ("🚀", "**[Taiwan Exam](https://github.com/niansia/taiwan-exam)**, an Agent Skill for original GSAT practice exams, public since 28 September 2026."),
                 ("🌙", "Built **[LumiGrid](https://github.com/niansia/LumiGrid)** for NTIRE 2025 low-light enhancement: +8.1 dB over the course pipeline it started from."),
                 ("🐾", "Running **[niansia.com](https://niansia.com/)**, a terminal-style portfolio where Yuki, a cat-eared guide, answers questions with an in-browser model.")],
@@ -85,6 +86,7 @@ T = {
                 ("👁️", "視覺與多模態智慧", ["電腦視覺與視覺語言模型", "多模態推理與記憶", "真實世界不確定性下的評估", "可重現的失敗案例分析"])],
         "now_h": "最近在做",
         "now": [("✍️", "準備投稿 CVPR、ICCV 與 COLM 2027。"),
+                ("⏪", "2026 年 10 月 5 日公開 **[Zerostel](https://github.com/zerostel/zerostel)**：AI 寫程式工具的行車紀錄器和時光機。"),
                 ("🚀", "2026 年 9 月 28 日公開 **[Taiwan Exam](https://github.com/niansia/taiwan-exam)**：讓 AI 出原創學測模擬考的 Agent Skill。"),
                 ("🌙", "完成 **[LumiGrid](https://github.com/niansia/LumiGrid)**（NTIRE 2025 低光影像增強），比出發點的課堂作法高 8.1 dB。"),
                 ("🐾", "經營 **[niansia.com](https://niansia.com/zh-tw/)**：終端機風格的作品集，貓耳助理 Yuki 用瀏覽器裡的模型回答問題。")],
@@ -105,6 +107,7 @@ T = {
                 ("👁️", "视觉与多模态智能", ["计算机视觉与视觉语言模型", "多模态推理与记忆", "真实世界不确定性下的评估", "可复现的失败案例分析"])],
         "now_h": "最近在做",
         "now": [("✍️", "准备投稿 CVPR、ICCV 与 COLM 2027。"),
+                ("⏪", "2026 年 10 月 5 日公开 **[Zerostel](https://github.com/zerostel/zerostel)**：AI 写代码工具的行车记录仪和时光机。"),
                 ("🚀", "2026 年 9 月 28 日公开 **[Taiwan Exam](https://github.com/niansia/taiwan-exam)**：让 AI 出原创学测模拟考的 Agent Skill。"),
                 ("🌙", "完成 **[LumiGrid](https://github.com/niansia/LumiGrid)**（NTIRE 2025 低光图像增强），比出发点的课堂做法高 8.1 dB。"),
                 ("🐾", "经营 **[niansia.com](https://niansia.com/zh-cn/)**：终端风格的作品集，猫耳助理 Yuki 用浏览器里的模型回答问题。")],

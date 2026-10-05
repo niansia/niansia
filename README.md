@@ -18,6 +18,7 @@ I studied Computer Science at **Yuan Ze University** and am an M.S. student in C
 ## Now
 
 - ✍️ Preparing submissions to CVPR, ICCV and COLM 2027.
+- ⏪ **[Zerostel](https://github.com/zerostel/zerostel)**, a flight recorder and time machine for AI coding agents, public since 5 October 2026.
 - 🚀 **[Taiwan Exam](https://github.com/niansia/taiwan-exam)**, an Agent Skill for original GSAT practice exams, public since 28 September 2026.
 - 🌙 Built **[LumiGrid](https://github.com/niansia/LumiGrid)** for NTIRE 2025 low-light enhancement: +8.1 dB over the course pipeline it started from.
 - 🐾 Running **[niansia.com](https://niansia.com/)**, a terminal-style portfolio where Yuki, a cat-eared guide, answers questions with an in-browser model.
@@ -25,16 +26,16 @@ I studied Computer Science at **Yuan Ze University** and am an M.S. student in C
 ## Featured projects
 
 <p align="center">
+<a href="https://github.com/zerostel/zerostel"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/tiles/zerostel-en-dark.webp"><img src="assets/readme/tiles/zerostel-en-light.webp" width="32%" alt="Zerostel: Flight recorder for AI coding agents: every step logged, every change one undo away."></picture></a>
 <a href="https://github.com/niansia/taiwan-exam"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/tiles/taiwan-exam-en-dark.webp"><img src="assets/readme/tiles/taiwan-exam-en-light.webp" width="32%" alt="Taiwan Exam: An original AI-written GSAT mock exam, re-solved and typeset as two PDFs."></picture></a>
 <a href="https://github.com/niansia/LumiGrid"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/tiles/lumigrid-en-dark.webp"><img src="assets/readme/tiles/lumigrid-en-light.webp" width="32%" alt="LumiGrid: Luminance-guided curve grids + NAFNet for low light: 24.57 dB on held-out NTIRE 2025 images."></picture></a>
-<a href="https://github.com/niansia/adversarial-lab"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/tiles/adversarial-lab-en-dark.webp"><img src="assets/readme/tiles/adversarial-lab-en-light.webp" width="32%" alt="Adversarial Lab: FGSM and PGD attacks in your browser; adversarial training still holds 85% at ε = 0.3."></picture></a>
 <br>
+<a href="https://github.com/niansia/adversarial-lab"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/tiles/adversarial-lab-en-dark.webp"><img src="assets/readme/tiles/adversarial-lab-en-light.webp" width="32%" alt="Adversarial Lab: FGSM and PGD attacks in your browser; adversarial training still holds 85% at ε = 0.3."></picture></a>
 <a href="https://github.com/niansia/KCrashLab"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/tiles/kcrashlab-en-dark.webp"><img src="assets/readme/tiles/kcrashlab-en-light.webp" width="32%" alt="KCrashLab: Simulation-first Windows driver reliability runs that end in independently checkable evidence."></picture></a>
 <a href="https://github.com/niansia/ChromaRecover"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/tiles/chromarecover-en-dark.webp"><img src="assets/readme/tiles/chromarecover-en-light.webp" width="32%" alt="ChromaRecover: Local-first recovery of structure carried by subtle colour differences; abstains when unsure."></picture></a>
-<a href="https://github.com/niansia/NoveltyAudit"><picture><source media="(prefers-color-scheme: dark)" srcset="assets/readme/tiles/noveltyaudit-en-dark.webp"><img src="assets/readme/tiles/noveltyaudit-en-light.webp" width="32%" alt="NoveltyAudit: Evidence-first novelty review: freeze the claim, find minimal prior sets, log what search missed."></picture></a>
 </p>
 
-<p align="right"><a href="https://niansia.com/work/">All 11 projects and live demos →</a></p>
+<p align="right"><a href="https://niansia.com/work/">All 12 projects and live demos →</a></p>
 
 ## Tools & activity
 
