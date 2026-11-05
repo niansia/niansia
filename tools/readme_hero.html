@@ -69,16 +69,16 @@ document.documentElement.className = `${dark ? 'dark' : ''} ${L}`;
 document.documentElement.lang = L === 'en' ? 'en' : L === 'zh-CN' ? 'zh-Hans' : 'zh-Hant';
 const T = {
   en: {motto: 'A little terminal, a curious mind.', name: 'I’m <span>Niansia</span>.', tag: 'Code, research, and a little cat magic by the keyboard.',
-    chips: ['AI security', 'Computer vision', 'Vision-language models'], status: '', now: '✍ now → <b>preparing CVPR · ICCV · COLM 2027</b>'},
+    chips: ['AI security', 'Computer vision', 'Vision-language models'], status: 'M.S. · NYCU · on a one-year leave', now: '✍ now → <b>preparing CVPR · ICCV · COLM 2027</b>'},
   'zh-TW': {motto: '一個小終端，裝著好奇心。', name: '我是 <span>Niansia</span>。', tag: '寫程式、做研究，還有鍵盤旁的一點貓咪魔法。',
-    chips: ['AI 安全', '電腦視覺', '視覺語言模型'], status: '', now: '✍ now → <b>準備投稿 CVPR · ICCV · COLM 2027</b>'},
+    chips: ['AI 安全', '電腦視覺', '視覺語言模型'], status: '陽明交大資工碩士生 · 休學一年中', now: '✍ now → <b>準備投稿 CVPR · ICCV · COLM 2027</b>'},
   'zh-CN': {motto: '一个小终端，装着好奇心。', name: '我是 <span>Niansia</span>。', tag: '写代码、做研究，还有键盘旁的一点猫咪魔法。',
-    chips: ['AI 安全', '计算机视觉', '视觉语言模型'], status: '', now: '✍ now → <b>准备投稿 CVPR · ICCV · COLM 2027</b>'},
+    chips: ['AI 安全', '计算机视觉', '视觉语言模型'], status: '阳明交大资工硕士生 · 休学一年中', now: '✍ now → <b>准备投稿 CVPR · ICCV · COLM 2027</b>'},
 }[L];
 document.getElementById('motto').textContent = T.motto;
 document.getElementById('name').innerHTML = T.name;
 document.getElementById('tag').textContent = T.tag;
-document.getElementById('chips').innerHTML = T.chips.map(c => `<span class="chip">${c}</span>`).join('') + (T.status ? `<span class="chip mono">${T.status}</span>` : '');
+document.getElementById('chips').innerHTML = T.chips.map(c => `<span class="chip">${c}</span>`).join('') + `<span class="chip mono">${T.status}</span>`;
 document.getElementById('now').innerHTML = T.now;
 </script>
 </body>
